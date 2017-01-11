@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:08" hostname="XB-20161010YVDY" time="0.249">
+  <properties/>
+  <testcase name="random[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@68a136c3]]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="0.049"/>
+  <testcase name="random[server [org.springframework.http.server.reactive.bootstrap.RxNettyHttpServer@6f589fb5]]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="0.03"/>
+  <testcase name="random[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@3dd69474]]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="0.034"/>
+  <testcase name="random[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@211e7d66]]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="0.105"/>
+  <testcase name="random[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@406850a8]]" classname="org.springframework.http.server.reactive.RandomHandlerIntegrationTests" time="0.031"/>
+  <system-out><![CDATA[16:05:08.900 [rxnetty-nio-eventloop-5-2] ERROR io.reactivex.netty.protocol.tcp.server.TcpServerConnectionToChannelBridge - Error processing connection.
+java.lang.IllegalStateException: Only one subscriber allowed for connection input.
+]]></system-out>
+  <system-err><![CDATA[十一月 10, 2016 4:05:08 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-37640"]
+十一月 10, 2016 4:05:08 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+十一月 10, 2016 4:05:08 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Tomcat
+十一月 10, 2016 4:05:08 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.6
+十一月 10, 2016 4:05:08 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [http-nio-37640]
+十一月 10, 2016 4:05:08 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-37640"]
+十一月 10, 2016 4:05:09 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Tomcat
+十一月 10, 2016 4:05:09 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-37640"]
+十一月 10, 2016 4:05:09 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-37640"]
+]]></system-err>
+</testsuite>

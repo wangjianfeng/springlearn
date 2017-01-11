@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.ViewResolutionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:56:31" hostname="XB-20161010YVDY" time="0.237">
+  <properties/>
+  <testcase name="testJspOnly" classname="org.springframework.test.web.servlet.samples.standalone.ViewResolutionTests" time="0.039"/>
+  <testcase name="testJsonOnly" classname="org.springframework.test.web.servlet.samples.standalone.ViewResolutionTests" time="0.046"/>
+  <testcase name="defaultViewResolver" classname="org.springframework.test.web.servlet.samples.standalone.ViewResolutionTests" time="0.036"/>
+  <testcase name="testContentNegotiation" classname="org.springframework.test.web.servlet.samples.standalone.ViewResolutionTests" time="0.07"/>
+  <testcase name="testXmlOnly" classname="org.springframework.test.web.servlet.samples.standalone.ViewResolutionTests" time="0.046"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

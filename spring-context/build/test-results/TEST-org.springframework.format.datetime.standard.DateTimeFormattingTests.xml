@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.format.datetime.standard.DateTimeFormattingTests" tests="30" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:39:07" hostname="XB-20161010YVDY" time="0.065">
+  <properties/>
+  <testcase name="testBindInstantFromJavaUtilDate" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.027"/>
+  <testcase name="testBindYearMonth" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.003"/>
+  <testcase name="testBindDateTimeWithSpecificStyle" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.002"/>
+  <testcase name="testBindDuration" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.002"/>
+  <testcase name="testBindNestedLocalDateAnnotated" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.002"/>
+  <testcase name="testBindLocalTimeFromJavaUtilCalendar" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.002"/>
+  <testcase name="testBindLocalDateWithSpecificStyle" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalDateTime" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindISODate" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindISOTime" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.002"/>
+  <testcase name="testBindPeriod" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalDateWithSpecificFormatter" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindMonthDay" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.002"/>
+  <testcase name="testBindDateTimeAnnotatedPattern" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.006"/>
+  <testcase name="testBindLocalTimeWithSpecificFormatter" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindInstant" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.002"/>
+  <testcase name="testBindLocalDateAnnotatedWithDirectFieldAccess" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalDateTimeAnnotated" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.0"/>
+  <testcase name="testBindLocalDateAnnotatedWithError" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalDateArray" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.0"/>
+  <testcase name="testBindDateTimeOverflow" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalTimeWithSpecificStyle" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.0"/>
+  <testcase name="testBindLocalDateAnnotated" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindISODateTime" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.0"/>
+  <testcase name="testBindLocalTimeAnnotated" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.0"/>
+  <testcase name="testBindLocalDateAnnotatedWithDirectFieldAccessAndError" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalDateFromJavaUtilCalendar" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.0"/>
+  <testcase name="testBindLocalDate" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <testcase name="testBindLocalTime" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.0"/>
+  <testcase name="testBindLocalDateTimeFromJavaUtilCalendar" classname="org.springframework.format.datetime.standard.DateTimeFormattingTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

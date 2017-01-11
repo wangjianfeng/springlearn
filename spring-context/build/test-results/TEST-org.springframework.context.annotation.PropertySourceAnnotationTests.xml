@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.PropertySourceAnnotationTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:53" hostname="XB-20161010YVDY" time="0.364">
+  <properties/>
+  <testcase name="withPropertySources" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.017"/>
+  <testcase name="withCustomFactory" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.028"/>
+  <testcase name="orderingWithAndWithoutNameAndMultipleResourceLocations" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.028"/>
+  <testcase name="withResolvablePlaceholderAndFactoryBean" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.024"/>
+  <testcase name="withImplicitName" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.013"/>
+  <testcase name="withIgnoredPropertySource" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.018"/>
+  <testcase name="withResolvablePlaceholder" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.016"/>
+  <testcase name="orderingIsLifo" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.038"/>
+  <testcase name="withUnresolvablePlaceholderAndDefault" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.024"/>
+  <testcase name="withNamedPropertySources" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.016"/>
+  <testcase name="orderingDoesntReplaceExisting" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.011"/>
+  <testcase name="withExplicitName" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.016"/>
+  <testcase name="withMissingPropertySource" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.004"/>
+  <testcase name="withCustomFactoryAsMeta" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.018"/>
+  <testcase name="withEmptyResourceLocations" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.001"/>
+  <testcase name="withTestProfileBeans" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.028"/>
+  <testcase name="withNameAndMultipleResourceLocations" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.011"/>
+  <testcase name="withSameSourceImportedInDifferentOrder" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.025"/>
+  <testcase name="withMultipleResourceLocations" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.012"/>
+  <testcase name="orderingWithAndWithoutNameAndFourResourceLocations" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.011"/>
+  <testcase name="withUnresolvablePlaceholder" classname="org.springframework.context.annotation.PropertySourceAnnotationTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.ehcache.EhCacheCacheManagerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:39:52" hostname="XB-20161010YVDY" time="0.293">
+  <properties/>
+  <testcase name="getTransactionalOnExistingCache" classname="org.springframework.cache.ehcache.EhCacheCacheManagerTests" time="0.221"/>
+  <testcase name="getOnExistingCache" classname="org.springframework.cache.ehcache.EhCacheCacheManagerTests" time="0.014"/>
+  <testcase name="getOnNewCache" classname="org.springframework.cache.ehcache.EhCacheCacheManagerTests" time="0.023"/>
+  <testcase name="getOnUnknownCache" classname="org.springframework.cache.ehcache.EhCacheCacheManagerTests" time="0.017"/>
+  <testcase name="getTransactionalOnNewCache" classname="org.springframework.cache.ehcache.EhCacheCacheManagerTests" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

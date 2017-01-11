@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.config.EnableCachingIntegrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:36" hostname="XB-20161010YVDY" time="0.178">
+  <properties/>
+  <testcase name="fooServiceWithInterfaceCglib" classname="org.springframework.cache.config.EnableCachingIntegrationTests" time="0.072"/>
+  <testcase name="beanCondition" classname="org.springframework.cache.config.EnableCachingIntegrationTests" time="0.067"/>
+  <testcase name="fooServiceWithInterface" classname="org.springframework.cache.config.EnableCachingIntegrationTests" time="0.039"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

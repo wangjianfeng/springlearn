@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" tests="10" skipped="2" failures="0" errors="0" timestamp="2016-11-10T08:05:07" hostname="XB-20161010YVDY" time="0.445">
+  <properties/>
+  <testcase name="returnValue[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@279f22f2]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.05"/>
+  <testcase name="response[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@279f22f2]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.03"/>
+  <testcase name="returnValue[server [org.springframework.http.server.reactive.bootstrap.RxNettyHttpServer@20f6d59d]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.023"/>
+  <testcase name="response[server [org.springframework.http.server.reactive.bootstrap.RxNettyHttpServer@20f6d59d]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.028"/>
+  <testcase name="returnValue[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@4a641e4b]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.015">
+    <skipped/>
+  </testcase>
+  <testcase name="response[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@4a641e4b]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.012">
+    <skipped/>
+  </testcase>
+  <testcase name="returnValue[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@22973a75]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.115"/>
+  <testcase name="response[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@22973a75]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.103"/>
+  <testcase name="returnValue[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@7c410467]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.032"/>
+  <testcase name="response[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@7c410467]]" classname="org.springframework.http.server.reactive.ErrorHandlerIntegrationTests" time="0.035"/>
+  <system-out><![CDATA[16:05:07.580 [qtp190528433-392] ERROR org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Could not complete request
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:81) ~[test/:?]
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.service(ServletHttpHandlerAdapter.java:104) [main/:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:838) [jetty-servlet-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552) [jetty-servlet-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1221) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:487) [jetty-servlet-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1134) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.Server.handle(Server.java:560) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:318) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:265) [jetty-io-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:97) [jetty-io-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672) [jetty-util-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590) [jetty-util-9.4.0.RC1.jar:9.4.0.RC1]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+16:05:07.622 [qtp1157178042-409] ERROR org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Could not complete request
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:81) ~[test/:?]
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.service(ServletHttpHandlerAdapter.java:104) [main/:?]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:838) [jetty-servlet-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:552) [jetty-servlet-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1221) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:487) [jetty-servlet-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1134) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.Server.handle(Server.java:560) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:318) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251) [jetty-server-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:265) [jetty-io-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:97) [jetty-io-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124) [jetty-io-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:672) [jetty-util-9.4.0.RC1.jar:9.4.0.RC1]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:590) [jetty-util-9.4.0.RC1.jar:9.4.0.RC1]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+16:05:07.645 [rxnetty-nio-eventloop-5-4] ERROR org.springframework.http.server.reactive.RxNettyHttpHandlerAdapter - Could not complete request
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:81) ~[test/:?]
+	at org.springframework.http.server.reactive.RxNettyHttpHandlerAdapter.handle(RxNettyHttpHandlerAdapter.java:66) ~[main/:?]
+	at io.reactivex.netty.protocol.http.server.HttpConnectionHandler.handleRequest(HttpConnectionHandler.java:92) ~[rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.server.HttpConnectionHandler.access$200(HttpConnectionHandler.java:40) ~[rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.server.HttpConnectionHandler$1$1.call(HttpConnectionHandler.java:75) ~[rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.server.HttpConnectionHandler$1$1.call(HttpConnectionHandler.java:63) ~[rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at rx.internal.operators.OnSubscribeMap$MapSubscriber.onNext(OnSubscribeMap.java:69) [rxjava-1.2.2.jar:1.2.2]
+	at rx.internal.operators.OperatorTake$1.onNext(OperatorTake.java:76) [rxjava-1.2.2.jar:1.2.2]
+	at io.reactivex.netty.protocol.http.internal.AbstractHttpConnectionBridge$ConnectionInputSubscriber.nextHeader(AbstractHttpConnectionBridge.java:491) [rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.internal.AbstractHttpConnectionBridge$ConnectionInputSubscriber.access$500(AbstractHttpConnectionBridge.java:395) [rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.internal.AbstractHttpConnectionBridge.processNextItemInEventloop(AbstractHttpConnectionBridge.java:255) [rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.internal.AbstractHttpConnectionBridge.access$1200(AbstractHttpConnectionBridge.java:56) [rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.internal.AbstractHttpConnectionBridge$ConnectionInputSubscriber.onNext(AbstractHttpConnectionBridge.java:431) [rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.channel.AbstractConnectionToChannelBridge$ReadProducer.sendOnNext(AbstractConnectionToChannelBridge.java:373) [rxnetty-common-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.channel.AbstractConnectionToChannelBridge.newMessage(AbstractConnectionToChannelBridge.java:189) [rxnetty-common-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.channel.BackpressureManagingHandler.channelRead(BackpressureManagingHandler.java:76) [rxnetty-common-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.reactivex.netty.channel.BytesInspector.channelRead(BytesInspector.java:56) [rxnetty-common-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+16:05:07.674 [rxnetty-nio-eventloop-5-2] ERROR org.springframework.http.server.reactive.RxNettyHttpHandlerAdapter - Could not complete request
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:81) ~[test/:?]
+	at org.springframework.http.server.reactive.RxNettyHttpHandlerAdapter.handle(RxNettyHttpHandlerAdapter.java:66) ~[main/:?]
+	at io.reactivex.netty.protocol.http.server.HttpConnectionHandler.handleRequest(HttpConnectionHandler.java:92) ~[rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.server.HttpConnectionHandler.access$200(HttpConnectionHandler.java:40) ~[rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.server.HttpConnectionHandler$1$1.call(HttpConnectionHandler.java:75) ~[rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.server.HttpConnectionHandler$1$1.call(HttpConnectionHandler.java:63) ~[rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at rx.internal.operators.OnSubscribeMap$MapSubscriber.onNext(OnSubscribeMap.java:69) [rxjava-1.2.2.jar:1.2.2]
+	at rx.internal.operators.OperatorTake$1.onNext(OperatorTake.java:76) [rxjava-1.2.2.jar:1.2.2]
+	at io.reactivex.netty.protocol.http.internal.AbstractHttpConnectionBridge$ConnectionInputSubscriber.nextHeader(AbstractHttpConnectionBridge.java:491) [rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.internal.AbstractHttpConnectionBridge$ConnectionInputSubscriber.access$500(AbstractHttpConnectionBridge.java:395) [rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.internal.AbstractHttpConnectionBridge.processNextItemInEventloop(AbstractHttpConnectionBridge.java:255) [rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.internal.AbstractHttpConnectionBridge.access$1200(AbstractHttpConnectionBridge.java:56) [rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.protocol.http.internal.AbstractHttpConnectionBridge$ConnectionInputSubscriber.onNext(AbstractHttpConnectionBridge.java:431) [rxnetty-http-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.channel.AbstractConnectionToChannelBridge$ReadProducer.sendOnNext(AbstractConnectionToChannelBridge.java:373) [rxnetty-common-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.channel.AbstractConnectionToChannelBridge.newMessage(AbstractConnectionToChannelBridge.java:189) [rxnetty-common-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.reactivex.netty.channel.BackpressureManagingHandler.channelRead(BackpressureManagingHandler.java:76) [rxnetty-common-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.reactivex.netty.channel.BytesInspector.channelRead(BytesInspector.java:56) [rxnetty-common-0.5.2-rc.4.jar:0.5.2-rc.4]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144) [netty-all-4.1.6.Final.jar:4.1.6.Final]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+16:05:07.760 [http-nio-64456-exec-1] ERROR org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Could not complete request
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:81) ~[test/:?]
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.service(ServletHttpHandlerAdapter.java:104) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-8.5.6.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+16:05:07.862 [http-nio-26982-exec-1] ERROR org.springframework.http.server.reactive.ServletHttpHandlerAdapter - Could not complete request
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:81) ~[test/:?]
+	at org.springframework.http.server.reactive.ServletHttpHandlerAdapter.service(ServletHttpHandlerAdapter.java:104) [main/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_101]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_101]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util-8.5.6.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
+16:05:07.954 [XNIO-4 I/O-2] ERROR org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Could not complete request
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:81) ~[test/:?]
+	at org.springframework.http.server.reactive.UndertowHttpHandlerAdapter.handleRequest(UndertowHttpHandlerAdapter.java:64) [main/:?]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:207) [undertow-core-1.4.4.Final.jar:1.4.4.Final]
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:243) [undertow-core-1.4.4.Final.jar:1.4.4.Final]
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:134) [undertow-core-1.4.4.Final.jar:1.4.4.Final]
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:148) [undertow-core-1.4.4.Final.jar:1.4.4.Final]
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:92) [undertow-core-1.4.4.Final.jar:1.4.4.Final]
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:51) [undertow-core-1.4.4.Final.jar:1.4.4.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.4.1.Final.jar:3.4.1.Final]
+	at org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:291) [xnio-api-3.4.1.Final.jar:3.4.1.Final]
+	at org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:286) [xnio-api-3.4.1.Final.jar:3.4.1.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.4.1.Final.jar:3.4.1.Final]
+	at org.xnio.nio.QueuedNioTcpServer$1.run(QueuedNioTcpServer.java:129) [xnio-nio-3.4.1.Final.jar:3.4.1.Final]
+	at org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:588) [xnio-nio-3.4.1.Final.jar:3.4.1.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:468) [xnio-nio-3.4.1.Final.jar:3.4.1.Final]
+16:05:07.987 [XNIO-5 I/O-2] ERROR org.springframework.http.server.reactive.UndertowHttpHandlerAdapter - Could not complete request
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:81) ~[test/:?]
+	at org.springframework.http.server.reactive.UndertowHttpHandlerAdapter.handleRequest(UndertowHttpHandlerAdapter.java:64) [main/:?]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:207) [undertow-core-1.4.4.Final.jar:1.4.4.Final]
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:243) [undertow-core-1.4.4.Final.jar:1.4.4.Final]
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:134) [undertow-core-1.4.4.Final.jar:1.4.4.Final]
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:148) [undertow-core-1.4.4.Final.jar:1.4.4.Final]
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:92) [undertow-core-1.4.4.Final.jar:1.4.4.Final]
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:51) [undertow-core-1.4.4.Final.jar:1.4.4.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.4.1.Final.jar:3.4.1.Final]
+	at org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:291) [xnio-api-3.4.1.Final.jar:3.4.1.Final]
+	at org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:286) [xnio-api-3.4.1.Final.jar:3.4.1.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.4.1.Final.jar:3.4.1.Final]
+	at org.xnio.nio.QueuedNioTcpServer$1.run(QueuedNioTcpServer.java:129) [xnio-nio-3.4.1.Final.jar:3.4.1.Final]
+	at org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:588) [xnio-nio-3.4.1.Final.jar:3.4.1.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:468) [xnio-nio-3.4.1.Final.jar:3.4.1.Final]
+]]></system-out>
+  <system-err><![CDATA[十一月 10, 2016 4:05:07 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-64456"]
+十一月 10, 2016 4:05:07 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+十一月 10, 2016 4:05:07 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Tomcat
+十一月 10, 2016 4:05:07 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.6
+十一月 10, 2016 4:05:07 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [http-nio-64456]
+十一月 10, 2016 4:05:07 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-64456"]
+十一月 10, 2016 4:05:07 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Tomcat
+十一月 10, 2016 4:05:07 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-64456"]
+十一月 10, 2016 4:05:07 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-64456"]
+十一月 10, 2016 4:05:07 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-26982"]
+十一月 10, 2016 4:05:07 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+十一月 10, 2016 4:05:07 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Tomcat
+十一月 10, 2016 4:05:07 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.6
+十一月 10, 2016 4:05:07 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [http-nio-26982]
+十一月 10, 2016 4:05:07 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-26982"]
+十一月 10, 2016 4:05:07 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Tomcat
+十一月 10, 2016 4:05:07 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-26982"]
+十一月 10, 2016 4:05:07 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-26982"]
+]]></system-err>
+</testsuite>

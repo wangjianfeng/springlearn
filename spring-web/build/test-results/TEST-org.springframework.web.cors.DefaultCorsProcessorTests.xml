@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.cors.DefaultCorsProcessorTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:27" hostname="XB-20161010YVDY" time="0.004">
+  <properties/>
+  <testcase name="preflightRequestWithEmptyHeaders" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="preflightRequestValidRequestAndConfig" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestCredentialsWithOriginWildcard" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestWithoutRequestMethod" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="preflightRequestTestWithOriginButWithoutOtherHeaders" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestAllowedHeaders" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestCredentials" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestAllowsAllHeaders" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestWithRequestAndMethodHeaderButNoConfig" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestWrongAllowedMethod" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestMatchedAllowedMethod" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="actualRequestCaseInsensitiveOriginMatch" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestWithOriginHeaderAndAllowedOrigin" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestCredentials" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestCredentialsWithOriginWildcard" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestWithOriginHeaderAndNullConfig" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.001"/>
+  <testcase name="actualRequestExposedHeaders" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestWithNullConfig" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="preflightRequestAllOriginsAllowed" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <testcase name="actualRequestWithOriginHeader" classname="org.springframework.web.cors.DefaultCorsProcessorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.json.GsonHttpMessageConverterTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:00" hostname="XB-20161010YVDY" time="0.016">
+  <properties/>
+  <testcase name="readInvalidJson" classname="org.springframework.http.converter.json.GsonHttpMessageConverterTests" time="0.004"/>
+  <testcase name="prefixJson" classname="org.springframework.http.converter.json.GsonHttpMessageConverterTests" time="0.001"/>
+  <testcase name="readTyped" classname="org.springframework.http.converter.json.GsonHttpMessageConverterTests" time="0.001"/>
+  <testcase name="readUntyped" classname="org.springframework.http.converter.json.GsonHttpMessageConverterTests" time="0.002"/>
+  <testcase name="writeUTF16" classname="org.springframework.http.converter.json.GsonHttpMessageConverterTests" time="0.002"/>
+  <testcase name="readParameterizedType" classname="org.springframework.http.converter.json.GsonHttpMessageConverterTests" time="0.003"/>
+  <testcase name="canWrite" classname="org.springframework.http.converter.json.GsonHttpMessageConverterTests" time="0.0"/>
+  <testcase name="write" classname="org.springframework.http.converter.json.GsonHttpMessageConverterTests" time="0.001"/>
+  <testcase name="readGenerics" classname="org.springframework.http.converter.json.GsonHttpMessageConverterTests" time="0.001"/>
+  <testcase name="canRead" classname="org.springframework.http.converter.json.GsonHttpMessageConverterTests" time="0.0"/>
+  <testcase name="prefixJsonCustom" classname="org.springframework.http.converter.json.GsonHttpMessageConverterTests" time="0.0"/>
+  <testcase name="canReadAndWriteMicroformats" classname="org.springframework.http.converter.json.GsonHttpMessageConverterTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

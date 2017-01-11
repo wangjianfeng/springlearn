@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.filter.ForwardedHeaderFilterTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:27" hostname="XB-20161010YVDY" time="0.01">
+  <properties/>
+  <testcase name="requestUriWithForwardedPrefixTrailingSlash" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.004"/>
+  <testcase name="caseInsensitiveForwardedPrefix" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="requestUriWithTrailingSlash" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="shouldFilter" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="forwardedRequest" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.001"/>
+  <testcase name="requestUriEqualsContextPath" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="contextPathWithForwardedPrefix" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="contextPathWithTrailingSlash" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="shouldNotFilter" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="requestUri" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="requestUriWithForwardedPrefix" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="contextPathWithTrailingSlashes" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.001"/>
+  <testcase name="contextPathEmpty" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="contextPathWithForwardedPrefixTrailingSlash" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <testcase name="requestUriRootUrl" classname="org.springframework.web.filter.ForwardedHeaderFilterTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

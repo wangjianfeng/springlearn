@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:24" hostname="XB-20161010YVDY" time="0.031">
+  <properties/>
+  <testcase name="ifModifiedSince" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.012"/>
+  <testcase name="accept" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.0"/>
+  <testcase name="cookie" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.0"/>
+  <testcase name="method" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.001"/>
+  <testcase name="acceptCharset" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.0"/>
+  <testcase name="OPTIONS" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.0"/>
+  <testcase name="GET" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.0"/>
+  <testcase name="PUT" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.0"/>
+  <testcase name="HEAD" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.0"/>
+  <testcase name="POST" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.0"/>
+  <testcase name="from" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.0"/>
+  <testcase name="PATCH" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.0"/>
+  <testcase name="build" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.014"/>
+  <testcase name="ifNoneMatch" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.0"/>
+  <testcase name="bodyInserter" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.002"/>
+  <testcase name="DELETE" classname="org.springframework.web.client.reactive.DefaultClientRequestBuilderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

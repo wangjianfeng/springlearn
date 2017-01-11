@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.ContentDispositionTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:04:59" hostname="XB-20161010YVDY" time="0.004">
+  <properties/>
+  <testcase name="parseType" classname="org.springframework.http.ContentDispositionTests" time="0.002"/>
+  <testcase name="parseEmpty" classname="org.springframework.http.ContentDispositionTests" time="0.001"/>
+  <testcase name="parseNoType" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="decodeHeaderFieldParamInvalidCharset" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="encodeHeaderFieldParamInvalidCharset" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parse" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parseInvalidParameter" classname="org.springframework.http.ContentDispositionTests" time="0.001"/>
+  <testcase name="parseUnquotedFilename" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="parseEncodedFilename" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="headerValue" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="headerValueWithEncodedFilename" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="encodeHeaderFieldParam" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <testcase name="decodeHeaderFieldParam" classname="org.springframework.http.ContentDispositionTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

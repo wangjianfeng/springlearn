@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.accept.PathExtensionContentNegotiationStrategyTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:22" hostname="XB-20161010YVDY" time="0.005">
+  <properties/>
+  <testcase name="resolveMediaTypesFromMapping" classname="org.springframework.web.accept.PathExtensionContentNegotiationStrategyTests" time="0.001"/>
+  <testcase name="getMediaTypeFromFilenameNoJaf" classname="org.springframework.web.accept.PathExtensionContentNegotiationStrategyTests" time="0.002"/>
+  <testcase name="getMediaTypeFilenameWithEncodedURI" classname="org.springframework.web.accept.PathExtensionContentNegotiationStrategyTests" time="0.001"/>
+  <testcase name="resolveMediaTypesFromJaf" classname="org.springframework.web.accept.PathExtensionContentNegotiationStrategyTests" time="0.0"/>
+  <testcase name="resolveMediaTypesIgnoreUnknownExtension" classname="org.springframework.web.accept.PathExtensionContentNegotiationStrategyTests" time="0.0"/>
+  <testcase name="getMediaTypeFilenameWithContextPath" classname="org.springframework.web.accept.PathExtensionContentNegotiationStrategyTests" time="0.001"/>
+  <testcase name="resolveMediaTypesDoNotIgnoreUnknownExtension" classname="org.springframework.web.accept.PathExtensionContentNegotiationStrategyTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.ServletServerHttpRequestTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:09" hostname="XB-20161010YVDY" time="0.01">
+  <properties/>
+  <testcase name="getHeadersWithEmptyContentTypeAndEncoding" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
+  <testcase name="getFormBody" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.002"/>
+  <testcase name="getURI" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
+  <testcase name="getBody" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
+  <testcase name="getMethod" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
+  <testcase name="getUriWithEncoding" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
+  <testcase name="getHeaders" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

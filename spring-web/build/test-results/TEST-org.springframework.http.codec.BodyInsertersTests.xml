@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.BodyInsertersTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:04:58" hostname="XB-20161010YVDY" time="0.098">
+  <properties/>
+  <testcase name="ofObject" classname="org.springframework.http.codec.BodyInsertersTests" time="0.019"/>
+  <testcase name="ofPublisher" classname="org.springframework.http.codec.BodyInsertersTests" time="0.003"/>
+  <testcase name="ofResource" classname="org.springframework.http.codec.BodyInsertersTests" time="0.034"/>
+  <testcase name="ofServerSentEventClass" classname="org.springframework.http.codec.BodyInsertersTests" time="0.039"/>
+  <testcase name="ofServerSentEventFlux" classname="org.springframework.http.codec.BodyInsertersTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

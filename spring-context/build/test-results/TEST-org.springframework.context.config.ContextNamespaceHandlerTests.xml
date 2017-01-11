@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.config.ContextNamespaceHandlerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:54" hostname="XB-20161010YVDY" time="0.178">
+  <properties/>
+  <testcase name="propertyPlaceholderLocationWithSystemPropertyForMultipleLocations" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.025"/>
+  <testcase name="propertyPlaceholderLocationWithSystemPropertyMissing" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.016"/>
+  <testcase name="propertyPlaceholderLocation" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.019"/>
+  <testcase name="propertyPlaceholderLocationWithSystemPropertyForOneLocation" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.02"/>
+  <testcase name="propertyPlaceholderIgnored" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.022"/>
+  <testcase name="propertyOverride" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.017"/>
+  <testcase name="propertyPlaceholderEnvironmentProperties" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.017"/>
+  <testcase name="propertyPlaceholderSystemProperties" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.019"/>
+  <testcase name="propertyPlaceholder" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.022"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

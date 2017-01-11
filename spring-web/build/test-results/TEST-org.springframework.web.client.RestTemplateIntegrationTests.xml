@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.RestTemplateIntegrationTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:25" hostname="XB-20161010YVDY" time="0.387">
+  <properties/>
+  <testcase name="serverPort" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="jsonPostForObjectWithJacksonView" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="exchangeGet" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="multipart" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.004"/>
+  <testcase name="getNoContentTypeHeader" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="getNotModified" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="serverError" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="jsonPostForObject" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="postForLocationEntity" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="postForObject" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.002"/>
+  <testcase name="postForLocation" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.002"/>
+  <testcase name="uri" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.006"/>
+  <testcase name="form" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="getEntity" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="getNoResponse" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="getString" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="optionsForAllow" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.002"/>
+  <testcase name="exchangePost" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="getNoContent" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.003"/>
+  <testcase name="notFound" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.002"/>
+  <testcase name="jsonPostForObjectWithJacksonTypeInfoList" classname="org.springframework.web.client.RestTemplateIntegrationTests" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

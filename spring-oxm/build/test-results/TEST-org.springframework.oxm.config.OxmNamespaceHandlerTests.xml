@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.oxm.config.OxmNamespaceHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:41:55" hostname="XB-20161010YVDY" time="0.311">
+  <properties/>
+  <testcase name="jaxb2ClassesToBeBoundMarshaller" classname="org.springframework.oxm.config.OxmNamespaceHandlerTests" time="0.0"/>
+  <testcase name="castorTargetClassMarshaller" classname="org.springframework.oxm.config.OxmNamespaceHandlerTests" time="0.0"/>
+  <testcase name="castorTargetPackageMarshaller" classname="org.springframework.oxm.config.OxmNamespaceHandlerTests" time="0.0"/>
+  <testcase name="castorMappingLocationMarshaller" classname="org.springframework.oxm.config.OxmNamespaceHandlerTests" time="0.0"/>
+  <testcase name="castorEncodingMarshaller" classname="org.springframework.oxm.config.OxmNamespaceHandlerTests" time="0.0"/>
+  <testcase name="jaxb2ContextPathMarshaller" classname="org.springframework.oxm.config.OxmNamespaceHandlerTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

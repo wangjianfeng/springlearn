@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.annotation.AnnotationTransactionNamespaceHandlerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:44:17" hostname="XB-20161010YVDY" time="0.358">
+  <properties/>
+  <testcase name="invokeTransactional" classname="org.springframework.transaction.annotation.AnnotationTransactionNamespaceHandlerTests" time="0.012"/>
+  <testcase name="nonPublicMethodsNotAdvised" classname="org.springframework.transaction.annotation.AnnotationTransactionNamespaceHandlerTests" time="0.001"/>
+  <testcase name="transactionalEventListenerRegisteredProperly" classname="org.springframework.transaction.annotation.AnnotationTransactionNamespaceHandlerTests" time="0.001"/>
+  <testcase name="mBeanExportAlsoWorks" classname="org.springframework.transaction.annotation.AnnotationTransactionNamespaceHandlerTests" time="0.007"/>
+  <testcase name="isProxy" classname="org.springframework.transaction.annotation.AnnotationTransactionNamespaceHandlerTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

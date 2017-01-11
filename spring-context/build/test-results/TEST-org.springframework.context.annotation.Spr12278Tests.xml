@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.Spr12278Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:54" hostname="XB-20161010YVDY" time="0.034">
+  <properties/>
+  <testcase name="componentTwoConstructorsNoHint" classname="org.springframework.context.annotation.Spr12278Tests" time="0.018"/>
+  <testcase name="componentTwoSpecificConstructorsNoHint" classname="org.springframework.context.annotation.Spr12278Tests" time="0.005"/>
+  <testcase name="componentSingleConstructor" classname="org.springframework.context.annotation.Spr12278Tests" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

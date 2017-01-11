@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.format.number.money.MoneyFormattingTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:39:07" hostname="XB-20161010YVDY" time="0.11">
+  <properties/>
+  <testcase name="testAmountWithNumberFormat1" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.062"/>
+  <testcase name="testAmountWithNumberFormat2" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.003"/>
+  <testcase name="testAmountWithNumberFormat3" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.003"/>
+  <testcase name="testAmountWithNumberFormat4" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.005"/>
+  <testcase name="testAmountWithNumberFormat5" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.004"/>
+  <testcase name="testAmountAndUnit" classname="org.springframework.format.number.money.MoneyFormattingTests" time="0.033"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Nov 10, 2016 3:39:07 PM org.javamoney.moneta.DefaultMonetaryContextFactory createMonetaryContextNonNullConfig
+INFORMATION: Using custom MathContext: precision=256, roundingMode=HALF_EVEN
+]]></system-err>
+</testsuite>

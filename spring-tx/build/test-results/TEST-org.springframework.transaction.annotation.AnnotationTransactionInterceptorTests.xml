@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:44:17" hostname="XB-20161010YVDY" time="0.146">
+  <properties/>
+  <testcase name="withRollback" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.04"/>
+  <testcase name="classLevelOnly" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.022"/>
+  <testcase name="withSingleMethodOverride" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.021"/>
+  <testcase name="withSingleMethodOverrideInverted" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.027"/>
+  <testcase name="crossClassInterfaceMethodLevelOnJdkProxy" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.005"/>
+  <testcase name="withMultiMethodOverride" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.019"/>
+  <testcase name="withInterface" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.004"/>
+  <testcase name="crossClassInterfaceOnJdkProxy" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

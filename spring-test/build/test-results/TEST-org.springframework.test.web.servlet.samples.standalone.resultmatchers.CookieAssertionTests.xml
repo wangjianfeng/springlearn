@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.resultmatchers.CookieAssertionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:56:28" hostname="XB-20161010YVDY" time="0.367">
+  <properties/>
+  <testcase name="testEqualTo" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.CookieAssertionTests" time="0.051"/>
+  <testcase name="testPath" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.CookieAssertionTests" time="0.042"/>
+  <testcase name="testVersion" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.CookieAssertionTests" time="0.047"/>
+  <testcase name="testMatcher" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.CookieAssertionTests" time="0.037"/>
+  <testcase name="testDomain" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.CookieAssertionTests" time="0.037"/>
+  <testcase name="testExists" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.CookieAssertionTests" time="0.042"/>
+  <testcase name="testMaxAge" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.CookieAssertionTests" time="0.038"/>
+  <testcase name="testNotExists" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.CookieAssertionTests" time="0.036"/>
+  <testcase name="testSecured" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.CookieAssertionTests" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

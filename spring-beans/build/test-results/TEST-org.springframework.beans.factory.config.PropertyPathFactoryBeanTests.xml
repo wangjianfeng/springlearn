@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.config.PropertyPathFactoryBeanTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:37:58" hostname="XB-20161010YVDY" time="0.028">
+  <properties/>
+  <testcase name="testPropertyPathFactoryBeanWithSingletonResult" classname="org.springframework.beans.factory.config.PropertyPathFactoryBeanTests" time="0.011"/>
+  <testcase name="testPropertyPathFactoryBeanAsInnerBean" classname="org.springframework.beans.factory.config.PropertyPathFactoryBeanTests" time="0.008"/>
+  <testcase name="testPropertyPathFactoryBeanWithNullResult" classname="org.springframework.beans.factory.config.PropertyPathFactoryBeanTests" time="0.004"/>
+  <testcase name="testPropertyPathFactoryBeanWithPrototypeResult" classname="org.springframework.beans.factory.config.PropertyPathFactoryBeanTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

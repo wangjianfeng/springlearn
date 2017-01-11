@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.NestedConfigurationClassTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:53" hostname="XB-20161010YVDY" time="0.198">
+  <properties/>
+  <testcase name="twoLevelsWithNoBeanMethods" classname="org.springframework.context.annotation.NestedConfigurationClassTests" time="0.026"/>
+  <testcase name="twoLevelsDeepWithInheritanceThroughImport" classname="org.springframework.context.annotation.NestedConfigurationClassTests" time="0.051"/>
+  <testcase name="twoLevelsDeep" classname="org.springframework.context.annotation.NestedConfigurationClassTests" time="0.019"/>
+  <testcase name="oneLevelDeep" classname="org.springframework.context.annotation.NestedConfigurationClassTests" time="0.017"/>
+  <testcase name="twoLevelsDeepWithInheritance" classname="org.springframework.context.annotation.NestedConfigurationClassTests" time="0.018"/>
+  <testcase name="twoLevelsInLiteMode" classname="org.springframework.context.annotation.NestedConfigurationClassTests" time="0.025"/>
+  <testcase name="twoLevelsDeepWithInheritanceAndScopedProxy" classname="org.springframework.context.annotation.NestedConfigurationClassTests" time="0.04"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

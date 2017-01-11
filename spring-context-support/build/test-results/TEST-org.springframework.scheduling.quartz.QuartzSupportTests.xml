@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.quartz.QuartzSupportTests" tests="15" skipped="8" failures="0" errors="0" timestamp="2016-11-10T07:40:08" hostname="XB-20161010YVDY" time="0.914">
+  <properties/>
+  <testcase name="jobDetailWithRunnableInsteadOfJob" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.001"/>
+  <testcase name="schedulerRepositoryExposure" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.058"/>
+  <testcase name="schedulerWithHsqlDataSource" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.603"/>
+  <testcase name="schedulerWithQuartzJobBean" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="multipleSchedulers" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.036"/>
+  <testcase name="schedulerAutoStartupFalse" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.06"/>
+  <testcase name="schedulerWithSpringBeanJobFactoryAndJobSchedulingData" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="schedulerAccessorBean" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="schedulerWithSpringBeanJobFactory" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="schedulerAutoStartsOnContextRefreshedEventByDefault" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.004"/>
+  <testcase name="schedulerWithTaskExecutor" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="schedulerWithSpringBeanJobFactoryAndQuartzJobBean" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="schedulerFactoryBeanWithApplicationContext" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.15"/>
+  <testcase name="twoAnonymousMethodInvokingJobDetailFactoryBeans" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="schedulerWithSpringBeanJobFactoryAndParamMismatchNotIgnored" classname="org.springframework.scheduling.quartz.QuartzSupportTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

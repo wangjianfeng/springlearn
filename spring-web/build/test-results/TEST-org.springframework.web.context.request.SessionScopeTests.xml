@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.context.request.SessionScopeTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:26" hostname="XB-20161010YVDY" time="0.05">
+  <properties/>
+  <testcase name="destructionWithSessionSerializationAndSerializableBeanPostProcessor" classname="org.springframework.web.context.request.SessionScopeTests" time="0.017"/>
+  <testcase name="destructionAtSessionTermination" classname="org.springframework.web.context.request.SessionScopeTests" time="0.011"/>
+  <testcase name="getFromScope" classname="org.springframework.web.context.request.SessionScopeTests" time="0.006"/>
+  <testcase name="destructionWithSessionSerialization" classname="org.springframework.web.context.request.SessionScopeTests" time="0.009"/>
+  <testcase name="destructionWithSessionSerializationAndBeanPostProcessor" classname="org.springframework.web.context.request.SessionScopeTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

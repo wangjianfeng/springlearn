@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:41:08" hostname="XB-20161010YVDY" time="31.982">
+  <properties/>
+  <testcase name="messageDeliveryExceptionIfSystemSessionForwardFails" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.278"/>
+  <testcase name="brokerBecomingUnvailableTriggersErrorFrame" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.268"/>
+  <testcase name="publishSubscribe" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.05"/>
+  <testcase name="brokerAvailabilityEventWhenStopped" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.249"/>
+  <testcase name="relayReconnectsIfBrokerComesBackUp" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="11.105"/>
+  <testcase name="disconnectWithReceipt" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.032"/>
+  <system-out><![CDATA[15:41:08.863 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+15:41:08.864 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:2) is starting
+15:41:08.864 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://zrccdzjs:61904
+15:41:08.864 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:61904 Started
+15:41:08.865 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:2) started
+15:41:08.865 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+15:41:08.892 [reactor-tcp-io-75] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CONNECTED: [id: 0x28b0b4f3, L:/127.0.0.1:63988 - R:/127.0.0.1:61904]
+15:41:08.898 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:2) is shutting down
+15:41:08.941 [reactor-tcp-io-68] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@396ea082. Attempting reconnect in 5000ms.
+15:41:09.277 [reactor-tcp-io-70] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@1b73ae28. Attempting reconnect in 5000ms.
+15:41:09.504 [reactor-tcp-io-72] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@31c18c44. Attempting reconnect in 5000ms.
+15:41:09.764 [reactor-tcp-io-74] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@72daecd8. Attempting reconnect in 5000ms.
+15:41:10.072 [reactor-tcp-io-77] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@62169e50. Attempting reconnect in 5000ms.
+15:41:10.340 [reactor-tcp-io-79] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@55f94532. Attempting reconnect in 5000ms.
+15:41:10.608 [reactor-tcp-io-81] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@83320e7. Attempting reconnect in 5000ms.
+15:41:10.888 [reactor-tcp-io-75] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CLOSED: [id: 0x28b0b4f3, L:/127.0.0.1:63988 ! R:/127.0.0.1:61904]
+15:41:10.888 [reactor-tcp-io-75] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@6a5c0838. Attempting reconnect in 5000ms.
+15:41:10.901 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:61904 Stopped
+15:41:10.901 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:2) uptime 2.038 seconds
+15:41:10.902 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:2) is shutdown
+15:41:10.905 [reactor-tcp-io-83] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@a068fc6. Attempting reconnect in 5000ms.
+15:41:11.135 [reactor-tcp-io-85] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@5dc1062a. Attempting reconnect in 5000ms.
+15:41:11.458 [reactor-tcp-io-87] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@60033351. Attempting reconnect in 5000ms.
+15:41:11.675 [reactor-tcp-io-89] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@69cdba76. Attempting reconnect in 5000ms.
+15:41:11.931 [reactor-tcp-io-95] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@16ff75a. Attempting reconnect in 5000ms.
+15:41:12.245 [reactor-tcp-io-97] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@e2036b5. Attempting reconnect in 5000ms.
+15:41:12.491 [reactor-tcp-io-99] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@2aa3dce. Attempting reconnect in 5000ms.
+15:41:12.807 [reactor-tcp-io-101] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@afdb18f. Attempting reconnect in 5000ms.
+15:41:13.031 [reactor-tcp-io-103] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@688e8c29. Attempting reconnect in 5000ms.
+15:41:13.035 [reactor-tcp-io-104] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7849b11e. Attempting reconnect in 5000ms.
+15:41:13.144 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+15:41:13.145 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:3) is starting
+15:41:13.145 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://zrccdzjs:61955
+15:41:13.145 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:61955 Started
+15:41:13.146 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:3) started
+15:41:13.146 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+15:41:13.167 [reactor-tcp-io-110] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CONNECTED: [id: 0xae9e0857, L:/127.0.0.1:64020 - R:/127.0.0.1:61955]
+15:41:13.188 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:3) is shutting down
+15:41:13.221 [reactor-tcp-io-106] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@ea70181. Attempting reconnect in 5000ms.
+15:41:13.362 [reactor-tcp-io-107] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@4c4c8a32. Attempting reconnect in 5000ms.
+15:41:13.677 [reactor-tcp-io-108] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@57ada32b. Attempting reconnect in 5000ms.
+15:41:14.035 [reactor-tcp-io-109] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@5cdd7be. Attempting reconnect in 5000ms.
+15:41:14.342 [reactor-tcp-io-112] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@44b67055. Attempting reconnect in 5000ms.
+15:41:14.611 [reactor-tcp-io-113] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@21dc2a22. Attempting reconnect in 5000ms.
+15:41:14.942 [reactor-tcp-io-114] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@1bcac329. Attempting reconnect in 5000ms.
+15:41:15.189 [reactor-tcp-io-110] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CLOSED: [id: 0xae9e0857, L:/127.0.0.1:64020 ! R:/127.0.0.1:61955]
+15:41:15.189 [reactor-tcp-io-110] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@1ebfa806. Attempting reconnect in 5000ms.
+15:41:15.192 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:61955 Stopped
+15:41:15.193 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:3) uptime 2.049 seconds
+15:41:15.193 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:3) is shutdown
+15:41:15.263 [reactor-tcp-io-115] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@25e8c6d1. Attempting reconnect in 5000ms.
+15:41:15.502 [reactor-tcp-io-116] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@5445a4c0. Attempting reconnect in 5000ms.
+15:41:15.773 [reactor-tcp-io-117] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@664e81f4. Attempting reconnect in 5000ms.
+15:41:16.060 [reactor-tcp-io-118] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@18ebbb34. Attempting reconnect in 5000ms.
+15:41:16.330 [reactor-tcp-io-122] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@22dd7fcb. Attempting reconnect in 5000ms.
+15:41:16.590 [reactor-tcp-io-123] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@28e5655c. Attempting reconnect in 5000ms.
+15:41:16.908 [reactor-tcp-io-124] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@421e3b2f. Attempting reconnect in 5000ms.
+15:41:17.136 [reactor-tcp-io-125] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@1bf3c5fa. Attempting reconnect in 5000ms.
+15:41:17.414 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+15:41:17.415 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:4) is starting
+15:41:17.416 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://zrccdzjs:62778
+15:41:17.416 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:62778 Started
+15:41:17.416 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:4) started
+15:41:17.416 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+15:41:17.441 [reactor-tcp-io-130] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CONNECTED: [id: 0x37749c3e, L:/127.0.0.1:64062 - R:/127.0.0.1:62778]
+15:41:17.453 [reactor-tcp-io-126] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@404da4b. Attempting reconnect in 5000ms.
+15:41:17.563 [reactor-tcp-io-130] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CLOSED: [id: 0x37749c3e, L:/127.0.0.1:64062 ! R:/127.0.0.1:62778]
+15:41:17.564 [reactor-tcp-io-130] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@611b0031. Attempting reconnect in 5000ms.
+15:41:17.673 [reactor-tcp-io-127] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7710845e. Attempting reconnect in 5000ms.
+15:41:17.897 [reactor-tcp-io-128] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@2b24b37a. Attempting reconnect in 5000ms.
+15:41:18.244 [reactor-tcp-io-129] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@1ee4a0c4. Attempting reconnect in 5000ms.
+15:41:18.493 [reactor-tcp-io-134] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@32a39caa. Attempting reconnect in 5000ms.
+15:41:18.804 [reactor-tcp-io-136] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7f6f943. Attempting reconnect in 5000ms.
+15:41:19.011 [reactor-tcp-io-137] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@40d57450. Attempting reconnect in 5000ms.
+15:41:19.014 [reactor-tcp-io-138] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@fd4be81. Attempting reconnect in 5000ms.
+15:41:19.185 [reactor-tcp-io-139] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@65bc92c1. Attempting reconnect in 5000ms.
+15:41:19.375 [reactor-tcp-io-140] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@6998d011. Attempting reconnect in 5000ms.
+15:41:19.675 [reactor-tcp-io-141] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@75056167. Attempting reconnect in 5000ms.
+15:41:19.768 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:4) is shutting down
+15:41:20.036 [reactor-tcp-io-142] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@460ddc8. Attempting reconnect in 5000ms.
+15:41:20.340 [reactor-tcp-io-143] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@66ca154e. Attempting reconnect in 5000ms.
+15:41:20.611 [reactor-tcp-io-144] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@1bee1ed7. Attempting reconnect in 5000ms.
+15:41:20.935 [reactor-tcp-io-145] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@484ce20f. Attempting reconnect in 5000ms.
+15:41:21.272 [reactor-tcp-io-146] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@3161119f. Attempting reconnect in 5000ms.
+15:41:21.449 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:62778 Stopped
+15:41:21.455 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:4) uptime 4.041 seconds
+15:41:21.455 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:4) is shutdown
+15:41:21.465 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+15:41:21.467 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:5) is starting
+15:41:21.469 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://zrccdzjs:64406
+15:41:21.470 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:64406 Started
+15:41:21.470 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:5) started
+15:41:21.470 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+15:41:21.487 [reactor-tcp-io-151] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CONNECTED: [id: 0xb6d54357, L:/127.0.0.1:64091 - R:/127.0.0.1:64406]
+15:41:21.493 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:5) is shutting down
+15:41:21.508 [reactor-tcp-io-147] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@62c2bccf. Attempting reconnect in 5000ms.
+15:41:21.779 [reactor-tcp-io-148] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7b411b50. Attempting reconnect in 5000ms.
+15:41:22.070 [reactor-tcp-io-149] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@5b6c63ce. Attempting reconnect in 5000ms.
+15:41:22.286 [reactor-tcp-io-150] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@3de8525f. Attempting reconnect in 5000ms.
+15:41:22.591 [reactor-tcp-io-152] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@14b40703. Attempting reconnect in 5000ms.
+15:41:22.903 [reactor-tcp-io-153] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@200f9c57. Attempting reconnect in 5000ms.
+15:41:23.148 [reactor-tcp-io-154] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@c46e262. Attempting reconnect in 5000ms.
+15:41:23.418 [reactor-tcp-io-155] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@3bd12a5d. Attempting reconnect in 5000ms.
+15:41:23.495 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:64406 Stopped
+15:41:23.496 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:5) uptime 2.031 seconds
+15:41:23.496 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:5) is shutdown
+15:41:23.500 [reactor-tcp-io-151] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CLOSED: [id: 0xb6d54357, L:/127.0.0.1:64091 ! R:/127.0.0.1:64406]
+15:41:23.500 [reactor-tcp-io-151] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@504e1d7. Attempting reconnect in 5000ms.
+15:41:23.672 [reactor-tcp-io-156] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@1d524d02. Attempting reconnect in 5000ms.
+15:41:23.895 [reactor-tcp-io-157] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@5f790144. Attempting reconnect in 5000ms.
+15:41:24.248 [reactor-tcp-io-158] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@515d57e. Attempting reconnect in 5000ms.
+15:41:24.508 [reactor-tcp-io-159] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@4337484f. Attempting reconnect in 5000ms.
+15:41:24.806 [reactor-tcp-io-164] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@5c7f8a6a. Attempting reconnect in 5000ms.
+15:41:25.012 [reactor-tcp-io-165] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@70b95ea6. Attempting reconnect in 5000ms.
+15:41:25.015 [reactor-tcp-io-1] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@74419fc3. Attempting reconnect in 5000ms.
+15:41:25.182 [reactor-tcp-io-166] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@119971f4. Attempting reconnect in 5000ms.
+15:41:25.362 [reactor-tcp-io-2] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@2dbe0a17. Attempting reconnect in 5000ms.
+15:41:25.680 [reactor-tcp-io-3] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@521d5254. Attempting reconnect in 5000ms.
+15:41:25.712 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+15:41:25.712 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:6) is starting
+15:41:25.713 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://zrccdzjs:62539
+15:41:25.713 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:62539 Started
+15:41:25.714 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:6) started
+15:41:25.715 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+15:41:25.738 [reactor-tcp-io-167] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CONNECTED: [id: 0x1409e300, L:/127.0.0.1:64119 - R:/127.0.0.1:62539]
+15:41:25.756 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:6) is shutting down
+15:41:26.036 [reactor-tcp-io-5] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@d960750. Attempting reconnect in 5000ms.
+15:41:26.341 [reactor-tcp-io-6] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@3de3b97c. Attempting reconnect in 5000ms.
+15:41:26.629 [reactor-tcp-io-8] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@70cb9187. Attempting reconnect in 5000ms.
+15:41:26.929 [reactor-tcp-io-10] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@4c64fac3. Attempting reconnect in 5000ms.
+15:41:27.259 [reactor-tcp-io-12] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@4795b41c. Attempting reconnect in 5000ms.
+15:41:27.516 [reactor-tcp-io-14] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@3e77a2f2. Attempting reconnect in 5000ms.
+15:41:27.756 [reactor-tcp-io-167] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CLOSED: [id: 0x1409e300, L:/127.0.0.1:64119 ! R:/127.0.0.1:62539]
+15:41:27.756 [reactor-tcp-io-167] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@3b7af577. Attempting reconnect in 5000ms.
+15:41:27.759 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:62539 Stopped
+15:41:27.760 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:6) uptime 2.049 seconds
+15:41:27.760 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:6) is shutdown
+15:41:27.760 [reactor-tcp-io-16] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@3c5d7c0a. Attempting reconnect in 5000ms.
+15:41:27.763 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+15:41:27.764 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:7) is starting
+15:41:27.764 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://zrccdzjs:62539
+15:41:27.764 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:62539 Started
+15:41:27.764 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:7) started
+15:41:27.764 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+15:41:28.063 [reactor-tcp-io-18] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@32ade5b1. Attempting reconnect in 5000ms.
+15:41:28.293 [reactor-tcp-io-20] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@1c4a0925. Attempting reconnect in 5000ms.
+15:41:28.601 [reactor-tcp-io-22] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@d274437. Attempting reconnect in 5000ms.
+15:41:28.901 [reactor-tcp-io-24] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7df1ba7e. Attempting reconnect in 5000ms.
+15:41:29.146 [reactor-tcp-io-26] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@21543ac1. Attempting reconnect in 5000ms.
+15:41:29.416 [reactor-tcp-io-28] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7975e6a3. Attempting reconnect in 5000ms.
+15:41:29.671 [reactor-tcp-io-30] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@117e960a. Attempting reconnect in 5000ms.
+15:41:29.882 [reactor-tcp-io-32] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@29df62bc. Attempting reconnect in 5000ms.
+15:41:30.243 [reactor-tcp-io-34] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@75139245. Attempting reconnect in 5000ms.
+15:41:30.493 [reactor-tcp-io-35] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@440a5cca. Attempting reconnect in 5000ms.
+15:41:30.789 [reactor-tcp-io-38] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@21919e8c. Attempting reconnect in 5000ms.
+15:41:31.000 [reactor-tcp-io-43] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7222aa4b. Attempting reconnect in 5000ms.
+15:41:31.000 [reactor-tcp-io-40] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@6fe6b202. Attempting reconnect in 5000ms.
+15:41:31.173 [reactor-tcp-io-44] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@77a2927. Attempting reconnect in 5000ms.
+15:41:31.360 [reactor-tcp-io-48] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@28750632. Attempting reconnect in 5000ms.
+15:41:31.674 [reactor-tcp-io-51] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@b1ced76. Attempting reconnect in 5000ms.
+15:41:32.043 [reactor-tcp-io-61] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@5f130652. Attempting reconnect in 5000ms.
+15:41:32.341 [reactor-tcp-io-64] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@33a83fcf. Attempting reconnect in 5000ms.
+15:41:32.621 [reactor-tcp-io-66] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@596093c1. Attempting reconnect in 5000ms.
+15:41:32.810 [reactor-tcp-io-171] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CONNECTED: [id: 0x80ca2789, L:/127.0.0.1:64155 - R:/127.0.0.1:62539]
+15:41:32.891 [reactor-tcp-io-68] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@4ddac688. Attempting reconnect in 5000ms.
+15:41:32.916 [reactor-tcp-io-171] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CLOSED: [id: 0x80ca2789, L:/127.0.0.1:64155 ! R:/127.0.0.1:62539]
+15:41:32.917 [reactor-tcp-io-171] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@6f33fb1a. Attempting reconnect in 5000ms.
+15:41:33.252 [reactor-tcp-io-70] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@6f657b6a. Attempting reconnect in 5000ms.
+15:41:33.500 [reactor-tcp-io-72] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@45fdd4d0. Attempting reconnect in 5000ms.
+15:41:33.773 [reactor-tcp-io-74] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@6256c4c. Attempting reconnect in 5000ms.
+15:41:34.067 [reactor-tcp-io-77] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@16f9c86b. Attempting reconnect in 5000ms.
+15:41:34.293 [reactor-tcp-io-79] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@2121c5c8. Attempting reconnect in 5000ms.
+15:41:34.598 [reactor-tcp-io-81] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7cb63403. Attempting reconnect in 5000ms.
+15:41:34.897 [reactor-tcp-io-83] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7e012cee. Attempting reconnect in 5000ms.
+15:41:35.119 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:7) is shutting down
+15:41:35.136 [reactor-tcp-io-85] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@2911afb4. Attempting reconnect in 5000ms.
+15:41:35.408 [reactor-tcp-io-87] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@14ee6280. Attempting reconnect in 5000ms.
+15:41:35.686 [reactor-tcp-io-89] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@1da9b5d1. Attempting reconnect in 5000ms.
+15:41:35.834 [reactor-tcp-io-95] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@75e3af06. Attempting reconnect in 5000ms.
+15:41:36.238 [reactor-tcp-io-97] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7aa32786. Attempting reconnect in 5000ms.
+15:41:36.505 [reactor-tcp-io-99] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7625a3e5. Attempting reconnect in 5000ms.
+15:41:36.785 [reactor-tcp-io-101] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7e7a6165. Attempting reconnect in 5000ms.
+15:41:36.810 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:62539 Stopped
+15:41:36.810 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:7) uptime 9.047 seconds
+15:41:36.810 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:7) is shutdown
+15:41:36.820 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+15:41:36.820 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:8) is starting
+15:41:36.820 [Test worker] INFO  org.apache.activemq.transport.TransportServerThreadSupport - Listening for connections at: stomp://zrccdzjs:62553
+15:41:36.821 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:62553 Started
+15:41:36.821 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:8) started
+15:41:36.821 [Test worker] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+15:41:36.834 [reactor-tcp-io-173] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CONNECTED: [id: 0x0a2a779b, L:/127.0.0.1:64193 - R:/127.0.0.1:62553]
+15:41:36.951 [reactor-tcp-io-173] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - CLOSED: [id: 0x0a2a779b, L:/127.0.0.1:64193 ! R:/127.0.0.1:62553]
+15:41:36.952 [reactor-tcp-io-173] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@a74022d. Attempting reconnect in 5000ms.
+15:41:36.991 [reactor-tcp-io-104] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@c3c2906. Attempting reconnect in 5000ms.
+15:41:36.993 [reactor-tcp-io-103] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@1cebc1d3. Attempting reconnect in 5000ms.
+15:41:37.124 [reactor-tcp-io-106] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@7a249712. Attempting reconnect in 5000ms.
+15:41:37.363 [reactor-tcp-io-107] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@380d2594. Attempting reconnect in 5000ms.
+15:41:37.648 [reactor-tcp-io-108] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@23f7f539. Attempting reconnect in 5000ms.
+15:41:38.040 [reactor-tcp-io-109] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@71c5b9f4. Attempting reconnect in 5000ms.
+15:41:38.345 [reactor-tcp-io-112] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@307fa4f4. Attempting reconnect in 5000ms.
+15:41:38.614 [reactor-tcp-io-113] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@5570f516. Attempting reconnect in 5000ms.
+15:41:38.894 [reactor-tcp-io-114] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@6f5c27b0. Attempting reconnect in 5000ms.
+15:41:39.155 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:8) is shutting down
+15:41:39.212 [reactor-tcp-io-115] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@51c0a9ab. Attempting reconnect in 5000ms.
+15:41:39.502 [reactor-tcp-io-116] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@201c1148. Attempting reconnect in 5000ms.
+15:41:39.762 [reactor-tcp-io-117] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@12a5931b. Attempting reconnect in 5000ms.
+15:41:40.058 [reactor-tcp-io-118] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@6cfeed90. Attempting reconnect in 5000ms.
+15:41:40.293 [reactor-tcp-io-122] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@56f232cb. Attempting reconnect in 5000ms.
+15:41:40.588 [reactor-tcp-io-123] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@5c409321. Attempting reconnect in 5000ms.
+15:41:40.841 [Test worker] INFO  org.apache.activemq.broker.TransportConnector - Connector stomp://zrccdzjs:62553 Stopped
+15:41:40.842 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:8) uptime 4.022 seconds
+15:41:40.842 [Test worker] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:XB-20161010YVDY-63938-1478763666477-0:8) is shutdown
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

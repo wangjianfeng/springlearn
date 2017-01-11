@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.htmlunit.webdriver.MockMvcHtmlUnitDriverBuilderTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:56:22" hostname="XB-20161010YVDY" time="0.562">
+  <properties/>
+  <testcase name="mockMvcSetupWithDefaultDriverDelegate" classname="org.springframework.test.web.servlet.htmlunit.webdriver.MockMvcHtmlUnitDriverBuilderTests" time="0.075"/>
+  <testcase name="mockMvcSetupWithCustomDriverDelegate" classname="org.springframework.test.web.servlet.htmlunit.webdriver.MockMvcHtmlUnitDriverBuilderTests" time="0.399"/>
+  <testcase name="cookieManagerShared" classname="org.springframework.test.web.servlet.htmlunit.webdriver.MockMvcHtmlUnitDriverBuilderTests" time="0.066"/>
+  <testcase name="javaScriptDisabled" classname="org.springframework.test.web.servlet.htmlunit.webdriver.MockMvcHtmlUnitDriverBuilderTests" time="0.008"/>
+  <testcase name="webAppContextSetupNull" classname="org.springframework.test.web.servlet.htmlunit.webdriver.MockMvcHtmlUnitDriverBuilderTests" time="0.001"/>
+  <testcase name="mockMvcSetupNull" classname="org.springframework.test.web.servlet.htmlunit.webdriver.MockMvcHtmlUnitDriverBuilderTests" time="0.001"/>
+  <testcase name="javaScriptEnabledByDefault" classname="org.springframework.test.web.servlet.htmlunit.webdriver.MockMvcHtmlUnitDriverBuilderTests" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

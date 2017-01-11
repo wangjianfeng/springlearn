@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.core.GenericMessagingTemplateTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:40:56" hostname="XB-20161010YVDY" time="0.54">
+  <properties/>
+  <testcase name="sendAndReceive" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.005"/>
+  <testcase name="convertAndSendWithSimpMessageHeaders" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.001"/>
+  <testcase name="sendAndReceiveTimeout" classname="org.springframework.messaging.core.GenericMessagingTemplateTests" time="0.534"/>
+  <system-out><![CDATA[15:40:57.321 [ThreadPoolTaskExecutor-1] WARN  org.springframework.messaging.core.GenericMessagingTemplate$TemporaryReplyChannel - Reply message received but the receiving thread has exited due to a timeout:GenericMessage [payload=response, headers={id=62f3e2b5-5688-da3c-407c-c1c53c96aa2a, timestamp=1478763657318}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

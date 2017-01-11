@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.BeanFactoryUtilsTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:37:58" hostname="XB-20161010YVDY" time="0.483">
+  <properties/>
+  <testcase name="testHierarchicalResolutionWithOverride" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.063"/>
+  <testcase name="testHierarchicalCountBeansWithNonHierarchicalFactory" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.057"/>
+  <testcase name="testGetBeanNamesForTypeWithOverride" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.041"/>
+  <testcase name="testCDependencies" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.041"/>
+  <testcase name="testBDependencies" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.033"/>
+  <testcase name="testADependencies" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.032"/>
+  <testcase name="testHierarchicalCountBeansWithOverride" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.036"/>
+  <testcase name="testFindsBeansOfTypeWithDefaultFactory" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.035"/>
+  <testcase name="testHierarchicalNamesWithNoMatch" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.032"/>
+  <testcase name="testIntDependencies" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.031"/>
+  <testcase name="testNoBeansOfType" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.027"/>
+  <testcase name="testFindsBeansOfTypeWithStaticFactory" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.027"/>
+  <testcase name="testHierarchicalNamesWithMatchOnlyInRoot" classname="org.springframework.beans.factory.BeanFactoryUtilsTests" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

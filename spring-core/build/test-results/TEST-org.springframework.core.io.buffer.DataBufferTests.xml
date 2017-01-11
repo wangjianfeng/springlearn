@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.io.buffer.DataBufferTests" tests="66" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:40:11" hostname="XB-20161010YVDY" time="0.023">
+  <properties/>
+  <testcase name="expand[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeByteBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="lastIndexOf[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.003"/>
+  <testcase name="inputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="outputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="slice[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeDataBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="growDataBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeAndRead[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="indexOf[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.002"/>
+  <testcase name="expand[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeByteBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="lastIndexOf[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="outputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="slice[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeDataBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="growDataBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeAndRead[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="indexOf[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="expand[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeByteBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="lastIndexOf[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="outputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="slice[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeDataBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="growDataBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeAndRead[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="indexOf[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="expand[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeByteBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="lastIndexOf[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="outputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="slice[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeDataBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="growDataBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeAndRead[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="indexOf[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="expand[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeByteBuffer[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="lastIndexOf[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStream[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.003"/>
+  <testcase name="outputStream[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.002"/>
+  <testcase name="slice[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeDataBuffer[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBuffer[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="growDataBuffer[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeAndRead[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="indexOf[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="expand[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeByteBuffer[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="lastIndexOf[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStream[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="outputStream[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="slice[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeDataBuffer[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBuffer[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="growDataBuffer[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeAndRead[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="indexOf[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.AsyncRestTemplateIntegrationTests" tests="41" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:23" hostname="XB-20161010YVDY" time="1.55">
+  <properties/>
+  <testcase name="postForEntityCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.028"/>
+  <testcase name="exchangeGet" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.014"/>
+  <testcase name="postForLocationCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.015"/>
+  <testcase name="headForHeadersCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.018"/>
+  <testcase name="delete" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="notFoundCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.018"/>
+  <testcase name="multipart" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.026"/>
+  <testcase name="getEntityCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.012"/>
+  <testcase name="getNoContentTypeHeader" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.016"/>
+  <testcase name="headForHeadersCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.012"/>
+  <testcase name="getNotModified" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.015"/>
+  <testcase name="serverErrorCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="serverError" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.015"/>
+  <testcase name="serverErrorCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.015"/>
+  <testcase name="getEntityCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.023"/>
+  <testcase name="headForHeaders" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.014"/>
+  <testcase name="postForEntity" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.017"/>
+  <testcase name="exchangeGetCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.02"/>
+  <testcase name="putCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.014"/>
+  <testcase name="postForEntityCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.02"/>
+  <testcase name="postForLocation" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.015"/>
+  <testcase name="postForLocationCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.019"/>
+  <testcase name="put" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.014"/>
+  <testcase name="multipleFutureGets" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.02"/>
+  <testcase name="deleteCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.016"/>
+  <testcase name="exchangeGetCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.02"/>
+  <testcase name="optionsForAllowCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.019"/>
+  <testcase name="getAndInterceptError" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.024"/>
+  <testcase name="getEntity" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.019"/>
+  <testcase name="exchangePostCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.018"/>
+  <testcase name="getNoResponse" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.021"/>
+  <testcase name="notFoundGet" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.016"/>
+  <testcase name="optionsForAllow" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.02"/>
+  <testcase name="optionsForAllowCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.021"/>
+  <testcase name="notFoundCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.019"/>
+  <testcase name="getAndInterceptResponse" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.019"/>
+  <testcase name="identicalExceptionThroughGetAndCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.019"/>
+  <testcase name="exchangePost" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.023"/>
+  <testcase name="getNoContent" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.019"/>
+  <testcase name="deleteCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.02"/>
+  <testcase name="exchangePostCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.024"/>
+  <system-out><![CDATA[16:05:23.506 [I/O dispatcher 65] WARN  org.springframework.web.client.AsyncRestTemplate - Async GET request for "http://localhost:65024/status/notfound" resulted in 404 (Not Found); invoking error handler
+16:05:23.714 [I/O dispatcher 89] WARN  org.springframework.web.client.AsyncRestTemplate - Async GET request for "http://localhost:65024/status/server" resulted in 500 (Server Error); invoking error handler
+16:05:23.746 [Test worker] WARN  org.springframework.web.client.AsyncRestTemplate - Async GET request for "http://localhost:65024/status/server" resulted in 500 (Server Error); invoking error handler
+16:05:23.781 [I/O dispatcher 97] WARN  org.springframework.web.client.AsyncRestTemplate - Async GET request for "http://localhost:65024/status/server" resulted in 500 (Server Error); invoking error handler
+16:05:24.456 [Test worker] WARN  org.springframework.web.client.AsyncRestTemplate - Async GET request for "http://localhost:65024/status/notfound" resulted in 404 (Not Found); invoking error handler
+16:05:24.576 [I/O dispatcher 181] WARN  org.springframework.web.client.AsyncRestTemplate - Async GET request for "http://localhost:65024/status/notfound" resulted in 404 (Not Found); invoking error handler
+16:05:24.651 [I/O dispatcher 189] WARN  org.springframework.web.client.AsyncRestTemplate - Async GET request for "http://localhost:65024/status/notfound" resulted in 404 (Not Found); invoking error handler
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

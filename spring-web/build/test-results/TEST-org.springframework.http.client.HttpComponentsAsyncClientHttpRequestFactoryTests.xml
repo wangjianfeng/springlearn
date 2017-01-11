@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactoryTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:04:49" hostname="XB-20161010YVDY" time="0.278">
+  <properties/>
+  <testcase name="defaultSettingsOfHttpAsyncClientLostOnExecutorCustomization" classname="org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactoryTests" time="0.07"/>
+  <testcase name="customHttpAsyncClientUsesItsDefault" classname="org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactoryTests" time="0.02"/>
+  <testcase name="httpMethods" classname="org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactoryTests" time="0.105"/>
+  <testcase name="cancel" classname="org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactoryTests" time="0.01"/>
+  <testcase name="headersAfterExecute" classname="org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactoryTests" time="0.019"/>
+  <testcase name="status" classname="org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactoryTests" time="0.013"/>
+  <testcase name="echo" classname="org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactoryTests" time="0.014"/>
+  <testcase name="statusCallback" classname="org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactoryTests" time="0.012"/>
+  <testcase name="multipleWrites" classname="org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactoryTests" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

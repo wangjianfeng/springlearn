@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.simple.CallMetaDataContextTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:40:38" hostname="XB-20161010YVDY" time="0.005">
+  <properties/>
+  <testcase name="testMatchParameterValuesAndSqlInOutParameters" classname="org.springframework.jdbc.core.simple.CallMetaDataContextTests" time="0.005"/>
+  <system-out><![CDATA[15:40:38.903 [Test worker] WARN  org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory - MyDB is not one of the databases fully supported for procedure calls -- supported are: [Apache Derby, DB2, MySQL, Microsoft SQL Server, Oracle, PostgreSQL, Sybase]
+15:40:38.903 [Test worker] WARN  org.springframework.jdbc.core.metadata.CallMetaDataProviderFactory - Metadata processing disabled - you must specify all parameters explicitly
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

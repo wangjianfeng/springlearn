@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.support.converter.MessagingMessageConverterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:40:53" hostname="XB-20161010YVDY" time="0.009">
+  <properties/>
+  <testcase name="simpleObject" classname="org.springframework.jms.support.converter.MessagingMessageConverterTests" time="0.007"/>
+  <testcase name="fromNull" classname="org.springframework.jms.support.converter.MessagingMessageConverterTests" time="0.0"/>
+  <testcase name="onlyHandlesMessage" classname="org.springframework.jms.support.converter.MessagingMessageConverterTests" time="0.001"/>
+  <testcase name="customPayloadConverter" classname="org.springframework.jms.support.converter.MessagingMessageConverterTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

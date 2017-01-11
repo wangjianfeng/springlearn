@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.HttpMessageConverterExtractorTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:24" hostname="XB-20161010YVDY" time="0.057">
+  <properties/>
+  <testcase name="normal" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.02"/>
+  <testcase name="cannotRead" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.001"/>
+  <testcase name="converterThrowsHttpMessageNotReadableException" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.002"/>
+  <testcase name="converterThrowsIOException" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.001"/>
+  <testcase name="notModified" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="emptyMessageBody" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="noContent" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.001"/>
+  <testcase name="generics" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.031"/>
+  <testcase name="zeroContentLength" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <testcase name="informational" classname="org.springframework.web.client.HttpMessageConverterExtractorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

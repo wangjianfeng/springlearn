@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.access.ContextSingletonBeanFactoryLocatorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:41" hostname="XB-20161010YVDY" time="0.115">
+  <properties/>
+  <testcase name="testBasicFunctionality" classname="org.springframework.context.access.ContextSingletonBeanFactoryLocatorTests" time="0.058"/>
+  <testcase name="testBaseBeanFactoryDefs" classname="org.springframework.context.access.ContextSingletonBeanFactoryLocatorTests" time="0.005"/>
+  <testcase name="testGetInstance" classname="org.springframework.context.access.ContextSingletonBeanFactoryLocatorTests" time="0.052"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

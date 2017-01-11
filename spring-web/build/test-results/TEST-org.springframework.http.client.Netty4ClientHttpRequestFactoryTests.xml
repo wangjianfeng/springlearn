@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.client.Netty4ClientHttpRequestFactoryTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:04:53" hostname="XB-20161010YVDY" time="0.071">
+  <properties/>
+  <testcase name="httpMethods" classname="org.springframework.http.client.Netty4ClientHttpRequestFactoryTests" time="0.041"/>
+  <testcase name="headersAfterExecute" classname="org.springframework.http.client.Netty4ClientHttpRequestFactoryTests" time="0.007"/>
+  <testcase name="status" classname="org.springframework.http.client.Netty4ClientHttpRequestFactoryTests" time="0.005"/>
+  <testcase name="echo" classname="org.springframework.http.client.Netty4ClientHttpRequestFactoryTests" time="0.005"/>
+  <testcase name="multipleWrites" classname="org.springframework.http.client.Netty4ClientHttpRequestFactoryTests" time="0.007"/>
+  <testcase name="queryParameters" classname="org.springframework.http.client.Netty4ClientHttpRequestFactoryTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

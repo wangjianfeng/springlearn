@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.JndiJtaTransactionManagerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:44:20" hostname="XB-20161010YVDY" time="0.069">
+  <properties/>
+  <testcase name="jtaTransactionManagerWithDefaultJndiLookupsAndNoTmFound" classname="org.springframework.transaction.JndiJtaTransactionManagerTests" time="0.061"/>
+  <testcase name="jtaTransactionManagerWithDefaultJndiLookups1" classname="org.springframework.transaction.JndiJtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithDefaultJndiLookups2" classname="org.springframework.transaction.JndiJtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithDefaultJndiLookupsAndNoUtFound" classname="org.springframework.transaction.JndiJtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithNotCacheUserTransaction" classname="org.springframework.transaction.JndiJtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithCustomJndiLookups" classname="org.springframework.transaction.JndiJtaTransactionManagerTests" time="0.001"/>
+  <system-out><![CDATA[15:44:20.852 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: Mock for UserTransaction, hashCode: 287068508
+15:44:20.852 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - No JTA TransactionManager found: transaction suspension not available
+15:44:20.855 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: Mock for UserTransaction, hashCode: 110796578
+15:44:20.855 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA TransactionManager: Mock for TransactionManager, hashCode: 1971304476
+15:44:20.856 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: Mock for UserTransaction, hashCode: 880655085
+15:44:20.856 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA TransactionManager: Mock for TransactionManager, hashCode: 1635621409
+15:44:20.858 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: org.springframework.transaction.jta.UserTransactionAdapter@33cc6aa3
+15:44:20.858 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA TransactionManager: Mock for TransactionManager, hashCode: 1006341022
+15:44:20.859 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: Mock for UserTransaction, hashCode: 1653138654
+15:44:20.859 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - No JTA TransactionManager found: transaction suspension not available
+15:44:20.861 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: Mock for UserTransaction, hashCode: 1865012796
+15:44:20.861 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA TransactionManager: Mock for TransactionManager, hashCode: 1071656968
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

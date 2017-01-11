@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.JtaTransactionManagerTests" tests="44" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:44:20" hostname="XB-20161010YVDY" time="0.121">
+  <properties/>
+  <testcase name="jtaTransactionManagerWithPropagationRequiresNewAndAdapter" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.026"/>
+  <testcase name="jtaTransactionManagerWithPropagationNotSupported" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithHeuristicRollbackExceptionOnCommit" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.003"/>
+  <testcase name="jtaTransactionManagerWithExistingTransactionAndSynchronizationNever" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.004"/>
+  <testcase name="jtaTransactionManagerWithPropagationSupportsAndSynchronizationNever" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithCommitAndSynchronizationNever" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithNestedBegin" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithDoubleRollback" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithExistingTransactionAndCommitException" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.023"/>
+  <testcase name="jtaTransactionManagerWithPropagationSupportsAndSynchronizationOnActual" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithNoExceptionOnGlobalRollbackOnlyAndFailEarly" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithSystemExceptionOnCommit" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithPropagationRequiresNewAndExistingWithSuspendException" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithNoExceptionOnGlobalRollbackOnly" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.0"/>
+  <testcase name="jtaTransactionManagerWithRollbackExceptionOnCommit" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithIllegalStateExceptionOnRollbackOnly" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.003"/>
+  <testcase name="jtaTransactionManagerWithExistingTransactionAndRollbackOnly" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.004"/>
+  <testcase name="jtaTransactionManagerWithPropagationRequiresNewWithinSupports" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithHeuristicMixedExceptionOnCommit" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithRollback" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithExistingTransactionAndRollbackOnlyAndNoGlobalRollback" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithRollbackAndSynchronizationOnActual" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.0"/>
+  <testcase name="jtaTransactionManagerWithRollbackAndSynchronizationNever" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.004"/>
+  <testcase name="jtaTransactionManagerWithIsolationLevel" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithExistingTransactionAndJtaSynchronization" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithRollbackAndCommit" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.0"/>
+  <testcase name="jtaTransactionManagerWithPropagationRequiresNew" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithPropagationRequiresNewAndSuspensionNotSupported" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithPropagationRequiresNewAndExistingWithBeginException" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithExistingTransactionAndExceptionAndNoGlobalRollback" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithSystemExceptionOnBegin" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithSystemExceptionOnIsExisting" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithUnsupportedOperationExceptionOnNestedBegin" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithCommitAndSynchronizationOnActual" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithNotSupportedExceptionOnNestedBegin" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithSystemExceptionOnRollback" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithPropagationSupports" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithExistingTransactionAndException" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithExistingAndPropagationSupports" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithPropagationRequiresNewAndExisting" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithExistingTransactionAndSynchronizationOnActual" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithCommit" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithSystemExceptionOnRollbackOnly" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithDoubleCommit" classname="org.springframework.transaction.JtaTransactionManagerTests" time="0.0"/>
+  <system-out><![CDATA[15:44:20.925 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: Mock for UserTransaction, hashCode: 927181871
+15:44:20.926 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - No JTA TransactionManager found: transaction suspension not available
+15:44:20.927 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: Mock for UserTransaction, hashCode: 749919414
+15:44:20.927 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - No JTA TransactionManager found: transaction suspension not available
+15:44:20.928 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: Mock for UserTransaction, hashCode: 1735535831
+15:44:20.928 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - No JTA TransactionManager found: transaction suspension not available
+15:44:20.953 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - Participating in existing JTA transaction, but no JTA TransactionManager available: cannot register Spring after-completion callbacks with outer JTA transaction - processing Spring after-completion callbacks with outcome status 'unknown'
+15:44:20.955 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: Mock for UserTransaction, hashCode: 989909033
+15:44:20.955 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - No JTA TransactionManager found: transaction suspension not available
+15:44:20.972 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - Participating in existing JTA transaction, but no JTA TransactionManager available: cannot register Spring after-completion callbacks with outer JTA transaction - processing Spring after-completion callbacks with outcome status 'unknown'
+15:44:20.981 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - Participating in existing JTA transaction, but no JTA TransactionManager available: cannot register Spring after-completion callbacks with outer JTA transaction - processing Spring after-completion callbacks with outcome status 'unknown'
+15:44:20.983 [Test worker] INFO  org.springframework.transaction.jta.JtaTransactionManager - Using JTA UserTransaction: Mock for UserTransaction, hashCode: 224206907
+15:44:20.983 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - No JTA TransactionManager found: transaction suspension not available
+15:44:20.995 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - Participating in existing JTA transaction, but no JTA TransactionManager available: cannot register Spring after-completion callbacks with outer JTA transaction - processing Spring after-completion callbacks with outcome status 'unknown'
+15:44:21.005 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - Participating in existing JTA transaction, but no JTA TransactionManager available: cannot register Spring after-completion callbacks with outer JTA transaction - processing Spring after-completion callbacks with outcome status 'unknown'
+15:44:21.006 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - Participating in existing JTA transaction, but no JTA TransactionManager available: cannot register Spring after-completion callbacks with outer JTA transaction - processing Spring after-completion callbacks with outcome status 'unknown'
+15:44:21.010 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - Participating in existing JTA transaction, but no JTA TransactionManager available: cannot register Spring after-completion callbacks with outer JTA transaction - processing Spring after-completion callbacks with outcome status 'unknown'
+15:44:21.013 [Test worker] WARN  org.springframework.transaction.jta.JtaTransactionManager - Participating in existing JTA transaction, but no JTA TransactionManager available: cannot register Spring after-completion callbacks with outer JTA transaction - processing Spring after-completion callbacks with outcome status 'unknown'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

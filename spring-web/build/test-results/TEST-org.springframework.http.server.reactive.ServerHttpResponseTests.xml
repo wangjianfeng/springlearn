@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.ServerHttpResponseTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:09" hostname="XB-20161010YVDY" time="0.002">
+  <properties/>
+  <testcase name="writeWith" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.0"/>
+  <testcase name="writeWithError" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.001"/>
+  <testcase name="beforeCommitWithComplete" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.0"/>
+  <testcase name="beforeCommitActionWithSetComplete" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.001"/>
+  <testcase name="setComplete" classname="org.springframework.http.server.reactive.ServerHttpResponseTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

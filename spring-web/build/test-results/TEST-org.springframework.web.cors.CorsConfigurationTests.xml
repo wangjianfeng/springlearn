@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.cors.CorsConfigurationTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:27" hostname="XB-20161010YVDY" time="0.002">
+  <properties/>
+  <testcase name="combineWithNull" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.001"/>
+  <testcase name="checkHeadersNotAllowed" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="setNullValues" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="asteriskWildCardOnSetExposedHeaders" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="checkMethodNotAllowed" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="combineWithAsteriskWildCard" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="combineWithDuplicatedElements" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="checkOriginAllowed" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="checkHeadersAllowed" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="combineWithNullProperties" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="setValues" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="checkOriginNotAllowed" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="combine" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="asteriskWildCardOnAddExposedHeader" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="checkMethodAllowed" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

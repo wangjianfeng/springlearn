@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.GenericCollectionTypeResolverTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:40:11" hostname="XB-20161010YVDY" time="0.008">
+  <properties/>
+  <testcase name="programmaticListIntrospection" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.002"/>
+  <testcase name="classResolution" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.003"/>
+  <testcase name="a" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.001"/>
+  <testcase name="b" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.0"/>
+  <testcase name="c" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.0"/>
+  <testcase name="d" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.0"/>
+  <testcase name="e" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.0"/>
+  <testcase name="b2" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.0"/>
+  <testcase name="b3" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.0"/>
+  <testcase name="d2" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.0"/>
+  <testcase name="d3" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.0"/>
+  <testcase name="e2" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.0"/>
+  <testcase name="e3" classname="org.springframework.core.GenericCollectionTypeResolverTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

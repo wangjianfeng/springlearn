@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.jdbc.SqlScriptsTestExecutionListenerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:55:54" hostname="XB-20161010YVDY" time="0.211">
+  <properties/>
+  <testcase name="valueAndScriptsDeclared" classname="org.springframework.test.context.jdbc.SqlScriptsTestExecutionListenerTests" time="0.017"/>
+  <testcase name="isolatedTxModeDeclaredWithoutTxMgr" classname="org.springframework.test.context.jdbc.SqlScriptsTestExecutionListenerTests" time="0.188"/>
+  <testcase name="missingDataSourceAndTxMgr" classname="org.springframework.test.context.jdbc.SqlScriptsTestExecutionListenerTests" time="0.002"/>
+  <testcase name="missingValueAndScriptsAndStatementsAtMethodLevel" classname="org.springframework.test.context.jdbc.SqlScriptsTestExecutionListenerTests" time="0.002"/>
+  <testcase name="missingValueAndScriptsAndStatementsAtClassLevel" classname="org.springframework.test.context.jdbc.SqlScriptsTestExecutionListenerTests" time="0.001"/>
+  <system-out><![CDATA[16:55:54.920 [Test worker] ERROR org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener - Could not detect default SQL script for test method [public void org.springframework.test.context.jdbc.SqlScriptsTestExecutionListenerTests$MissingValueAndScriptsAndStatementsAtMethodLevel.foo()]: class path resource [org/springframework/test/context/jdbc/SqlScriptsTestExecutionListenerTests$MissingValueAndScriptsAndStatementsAtMethodLevel.foo.sql] does not exist. Either declare statements or scripts via @Sql or make the default SQL script available.
+16:55:54.922 [Test worker] ERROR org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener - Could not detect default SQL script for test class [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListenerTests$MissingValueAndScriptsAndStatementsAtClassLevel]: class path resource [org/springframework/test/context/jdbc/SqlScriptsTestExecutionListenerTests$MissingValueAndScriptsAndStatementsAtClassLevel.sql] does not exist. Either declare statements or scripts via @Sql or make the default SQL script available.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

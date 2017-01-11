@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:40:57" hostname="XB-20161010YVDY" time="0.151">
+  <properties/>
+  <testcase name="resolveNameFromSystemProperty" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.133"/>
+  <testcase name="resolveArgumentNativeHeaderAmbiguity" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.005"/>
+  <testcase name="resolveArgumentNativeHeader" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveDefaultValueSystemProperty" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveArgumentDefaultValue" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveArgumentNotFound" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveArgument" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="supportsParameter" classname="org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolverTests" time="0.001"/>
+  <system-out><![CDATA[15:40:57.622 [Test worker] WARN  org.springframework.messaging.handler.annotation.support.HeaderMethodArgumentResolver - Message headers contain two values for the same header 'param1', one in the top level header map and a second in the nested map with native headers. Using the value from top level map. Use 'nativeHeader.myHeader' to resolve to the value from the nested native header map.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

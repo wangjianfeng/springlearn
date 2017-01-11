@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.QualifierAnnotationTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:22" hostname="XB-20161010YVDY" time="0.936">
+  <properties/>
+  <testcase name="testInterfaceWithOneQualifiedFactoryAndOneQualifiedBean" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.013"/>
+  <testcase name="testQualifiedByCustomValue" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.07"/>
+  <testcase name="testQualifiedByAlias" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.056"/>
+  <testcase name="testQualifiedByValue" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.054"/>
+  <testcase name="testQualifiedByAnnotation" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.057"/>
+  <testcase name="testNonQualifiedFieldFails" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.044"/>
+  <testcase name="testQualifiedByParameterName" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.398"/>
+  <testcase name="testQualifiedByFieldName" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.044"/>
+  <testcase name="testQualifiedByBeanName" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.043"/>
+  <testcase name="testQualifiedByAttributesFailsWithoutCustomQualifierRegistered" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.039"/>
+  <testcase name="testQualifiedByAnnotationValue" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.04"/>
+  <testcase name="testQualifiedByParentValue" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.038"/>
+  <testcase name="testQualifiedByAttributesWithCustomQualifierRegistered" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

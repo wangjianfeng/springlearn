@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:22" hostname="XB-20161010YVDY" time="0.219">
+  <properties/>
+  <testcase name="testAutowiredFieldWithSingleQualifiedCandidate" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.019"/>
+  <testcase name="testAutowiredFieldWithMultipleNonQualifiedCandidates" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.004"/>
+  <testcase name="testAutowiredFieldResolvesWithMultipleQualifierValuesAndExplicitDefaultValue" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.02"/>
+  <testcase name="testAutowiredFieldDoesNotResolveWithMultipleQualifierValuesAndConflictingDefaultValue" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.003"/>
+  <testcase name="testAutowiredMethodParameterWithSingleQualifiedCandidate" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.018"/>
+  <testcase name="testAutowiredConstructorArgumentWithSingleQualifiedCandidate" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.018"/>
+  <testcase name="testAutowiredMethodParameterWithStaticallyQualifiedCandidateAmongOthers" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.018"/>
+  <testcase name="testAutowiredFieldResolvesWithMultipleQualifierValues" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.012"/>
+  <testcase name="testAutowiredConstructorArgumentWithSingleNonQualifiedCandidate" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.002"/>
+  <testcase name="testAutowiredMethodParameterResolvesQualifiedCandidate" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.009"/>
+  <testcase name="testAutowiredFieldDoesNotResolveWithBaseQualifierAndNonDefaultValueAndMultipleMatchingCandidates" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.003"/>
+  <testcase name="testAutowiredConstructorArgumentWithMultipleNonQualifiedCandidates" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.003"/>
+  <testcase name="testAutowiredMethodParameterWithSingleNonQualifiedCandidate" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.002"/>
+  <testcase name="testAutowiredFieldDoesNotResolveWithMultipleQualifierValuesAndMultipleMatchingCandidates" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.003"/>
+  <testcase name="testAutowiredMethodParameterWithMultipleNonQualifiedCandidates" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.003"/>
+  <testcase name="testAutowiredFieldResolvesQualifiedCandidateWithDefaultValueAndNoValueOnBeanDefinition" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.014"/>
+  <testcase name="testAutowiredMethodParameterWithStaticallyQualifiedCandidate" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.026"/>
+  <testcase name="testAutowiredConstructorArgumentResolvesQualifiedCandidate" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.011"/>
+  <testcase name="testAutowiredFieldWithSingleNonQualifiedCandidate" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.002"/>
+  <testcase name="testAutowiredFieldResolvesWithDefaultValueAndExplicitDefaultValueOnBeanDefinition" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.011"/>
+  <testcase name="testAutowiredFieldResolvesQualifiedCandidate" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.01"/>
+  <testcase name="testAutowiredFieldDoesNotResolveCandidateWithDefaultValueAndConflictingValueOnBeanDefinition" classname="org.springframework.beans.factory.support.InjectAnnotationAutowireContextTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

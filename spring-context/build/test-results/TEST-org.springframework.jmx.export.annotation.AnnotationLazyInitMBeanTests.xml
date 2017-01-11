@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:39:08" hostname="XB-20161010YVDY" time="0.213">
+  <properties/>
+  <testcase name="lazyAssembling" classname="org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests" time="0.135"/>
+  <testcase name="lazyNaming" classname="org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests" time="0.025"/>
+  <testcase name="componentScan" classname="org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests" time="0.053"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

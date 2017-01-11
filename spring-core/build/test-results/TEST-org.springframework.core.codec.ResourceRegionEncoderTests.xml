@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.codec.ResourceRegionEncoderTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:40:10" hostname="XB-20161010YVDY" time="0.018">
+  <properties/>
+  <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.001"/>
+  <testcase name="shouldEncodeMultipleResourceRegions[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.008"/>
+  <testcase name="shouldEncodeResourceRegion[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.001"/>
+  <testcase name="canEncode[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.0"/>
+  <testcase name="shouldEncodeMultipleResourceRegions[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.001"/>
+  <testcase name="shouldEncodeResourceRegion[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.001"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.0"/>
+  <testcase name="shouldEncodeMultipleResourceRegions[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.001"/>
+  <testcase name="shouldEncodeResourceRegion[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.0"/>
+  <testcase name="canEncode[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.0"/>
+  <testcase name="shouldEncodeMultipleResourceRegions[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.001"/>
+  <testcase name="shouldEncodeResourceRegion[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.001"/>
+  <testcase name="canEncode[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.0"/>
+  <testcase name="shouldEncodeMultipleResourceRegions[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.001"/>
+  <testcase name="shouldEncodeResourceRegion[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.0"/>
+  <testcase name="canEncode[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.001"/>
+  <testcase name="shouldEncodeMultipleResourceRegions[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.001"/>
+  <testcase name="shouldEncodeResourceRegion[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

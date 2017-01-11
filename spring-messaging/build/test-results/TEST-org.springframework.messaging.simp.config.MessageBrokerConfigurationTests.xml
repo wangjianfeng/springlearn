@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:40:59" hostname="XB-20161010YVDY" time="6.231">
+  <properties/>
+  <testcase name="clientOutboundChannelUsedByAnnotatedMethod" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.002"/>
+  <testcase name="brokerChannelCustomized" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="simpValidatorCustom" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.016"/>
+  <testcase name="userBroadcastsDisabledWithSimpleBroker" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="clientOutboundChannelCustomized" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="configureMessageConvertersDefault" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="brokerChannelUsedByAnnotatedMethod" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.001"/>
+  <testcase name="clientInboundChannelWithBrokerRelay" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="brokerChannel" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.001"/>
+  <testcase name="simpValidatorDefault" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.001"/>
+  <testcase name="customPathMatcher" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.003"/>
+  <testcase name="clientInboundChannelCustomized" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="simpValidatorInjected" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="configureMessageConvertersCustomAndDefault" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="simpValidatorMvc" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="customCacheLimit" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="brokerChannelWithBrokerRelay" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="threadPoolSizeDefault" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="clientInboundChannel" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="clientOutboundChannelUsedBySimpleBroker" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.001"/>
+  <testcase name="configureMessageConvertersCustom" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="customArgumentAndReturnValueTypes" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="userBroadcasts" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.001"/>
+  <system-out><![CDATA[15:41:00.913 [reactor-tcp-io-1] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@31b32cc4. Attempting reconnect in 5000ms.
+15:41:01.308 [reactor-tcp-io-2] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@596a04bd. Attempting reconnect in 5000ms.
+15:41:01.623 [reactor-tcp-io-3] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@2636f8ad. Attempting reconnect in 5000ms.
+15:41:01.981 [reactor-tcp-io-5] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@79622dd2. Attempting reconnect in 5000ms.
+15:41:02.277 [reactor-tcp-io-6] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@49a7f0fe. Attempting reconnect in 5000ms.
+15:41:02.558 [reactor-tcp-io-8] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@4c2f9c5. Attempting reconnect in 5000ms.
+15:41:02.881 [reactor-tcp-io-10] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@38512a43. Attempting reconnect in 5000ms.
+15:41:03.205 [reactor-tcp-io-12] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@33ab8ca7. Attempting reconnect in 5000ms.
+15:41:03.449 [reactor-tcp-io-14] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@4a306f1a. Attempting reconnect in 5000ms.
+15:41:03.709 [reactor-tcp-io-16] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@489883fb. Attempting reconnect in 5000ms.
+15:41:04.005 [reactor-tcp-io-18] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@46e6e389. Attempting reconnect in 5000ms.
+15:41:04.281 [reactor-tcp-io-20] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@682fe503. Attempting reconnect in 5000ms.
+15:41:04.536 [reactor-tcp-io-22] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@79d3cfe0. Attempting reconnect in 5000ms.
+15:41:04.846 [reactor-tcp-io-24] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@9f5f9bd. Attempting reconnect in 5000ms.
+15:41:05.081 [reactor-tcp-io-26] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@558cdfca. Attempting reconnect in 5000ms.
+15:41:05.405 [reactor-tcp-io-28] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@d7521a8. Attempting reconnect in 5000ms.
+15:41:05.618 [reactor-tcp-io-30] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@65165718. Attempting reconnect in 5000ms.
+15:41:05.881 [reactor-tcp-io-32] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@5d0f0df6. Attempting reconnect in 5000ms.
+15:41:06.181 [reactor-tcp-io-34] INFO  reactor.io.net.impl.netty.tcp.NettyTcpClient - Failed to connect to reactor.io.net.impl.netty.tcp.NettyTcpClient$ReconnectingChannelListener$3@11f3aba. Attempting reconnect in 5000ms.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

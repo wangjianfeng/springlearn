@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.aspectj.TransactionAspectTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:37:53" hostname="XB-20161010YVDY" time="0.012">
+  <properties/>
+  <testcase name="testNoCommitOnNonAnnotatedNonPublicMethodInTransactionalType" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.0"/>
+  <testcase name="testCommitOnAnnotatedProtectedMethod" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.004"/>
+  <testcase name="testDefaultCommitOnAnnotatedClass" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.001"/>
+  <testcase name="testDefaultCommitOnSubclassOfClassWithTransactionalMethodAnnotated" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.002"/>
+  <testcase name="testDefaultCommitOnImplementationOfAnnotatedInterface" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.001"/>
+  <testcase name="testDefaultRollbackOnImplementationOfAnnotatedInterface" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.0"/>
+  <testcase name="testDefaultRollbackOnAnnotatedClass" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.0"/>
+  <testcase name="testCommitOnAnnotatedClass" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.0"/>
+  <testcase name="testNotTransactional" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.0"/>
+  <testcase name="testCommitOnAnnotatedMethod" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.0"/>
+  <testcase name="testDefaultCommitOnSubclassOfAnnotatedClass" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.001"/>
+  <testcase name="testDoesNotResolveTxAnnotationOnMethodFromClassImplementingAnnotatedInterface" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.0"/>
+  <testcase name="testCommitOnAnnotatedPrivateMethod" classname="org.springframework.transaction.aspectj.TransactionAspectTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

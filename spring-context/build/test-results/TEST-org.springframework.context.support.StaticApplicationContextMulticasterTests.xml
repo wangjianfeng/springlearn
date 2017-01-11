@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.support.StaticApplicationContextMulticasterTests" tests="37" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:39:05" hostname="XB-20161010YVDY" time="0.402">
+  <properties/>
+  <testcase name="events" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.018"/>
+  <testcase name="count" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.011"/>
+  <testcase name="closeTriggersDestroy" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.01"/>
+  <testcase name="grandparentNull" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.012"/>
+  <testcase name="eventsWithNoSource" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.012"/>
+  <testcase name="parentNonNull" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.011"/>
+  <testcase name="grandparentDefinitionFound" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.014"/>
+  <testcase name="messageSource" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.01"/>
+  <testcase name="contextAwareSingletonWasCalledBack" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.009"/>
+  <testcase name="contextAwarePrototypeWasCalledBack" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.008"/>
+  <testcase name="overrideWorked" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.017"/>
+  <testcase name="beanAutomaticallyHearsEvents" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.011"/>
+  <testcase name="grandparentTypedDefinitionFound" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.009"/>
+  <testcase name="containsBeanDefinition" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.007"/>
+  <testcase name="getDefinitionsForNoSuchClass" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.009"/>
+  <testcase name="getCountForFactoryClass" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.011"/>
+  <testcase name="factoryIsInitialized" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.007"/>
+  <testcase name="inheritance" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.011"/>
+  <testcase name="factorySingleton" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.009"/>
+  <testcase name="getSharedInstanceByMatchingClassNoCatch" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.01"/>
+  <testcase name="getSharedInstanceByMatchingClass" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.01"/>
+  <testcase name="getSharedInstanceByNonmatchingClass" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.013"/>
+  <testcase name="prototypeInstancesAreIndependent" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.013"/>
+  <testcase name="factoryPrototype" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.02"/>
+  <testcase name="lifecycleCallbacks" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.011"/>
+  <testcase name="grandparentDefinitionFoundInBeanFactory" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.017"/>
+  <testcase name="validEmpty" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.008"/>
+  <testcase name="findsValidInstance" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.009"/>
+  <testcase name="getFactoryItself" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.007"/>
+  <testcase name="getInstanceByMatchingClass" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.01"/>
+  <testcase name="getInstanceByNonmatchingClass" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.013"/>
+  <testcase name="getBeanWithNullArg" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.011"/>
+  <testcase name="rejectsFactoryGetOnNormalBean" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.013"/>
+  <testcase name="sharedInstancesAreEqual" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.008"/>
+  <testcase name="notThere" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.007"/>
+  <testcase name="aliasing" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.007"/>
+  <testcase name="initializingBeanCallback" classname="org.springframework.context.support.StaticApplicationContextMulticasterTests" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

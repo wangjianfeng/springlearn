@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scripting.bsh.BshScriptFactoryTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:39:17" hostname="XB-20161010YVDY" time="2.195">
+  <properties/>
+  <testcase name="scriptCompilationException" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.024"/>
+  <testcase name="scriptThatCompilesButIsJustPlainBad" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.022"/>
+  <testcase name="staticPrototypeScript" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.169"/>
+  <testcase name="resourceScriptFromTag" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.211"/>
+  <testcase name="prototypeScriptFromTag" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.227"/>
+  <testcase name="staticScriptWithNullReturnValue" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.189"/>
+  <testcase name="staticWithScriptReturningInstance" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.185"/>
+  <testcase name="staticScriptWithTwoInterfacesSpecified" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.176"/>
+  <testcase name="staticScriptImplementingInterface" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.183"/>
+  <testcase name="inlineScriptFromTag" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.166"/>
+  <testcase name="ctorWithWhitespacedScriptSourceLocator" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.0"/>
+  <testcase name="ctorWithNullScriptSourceLocator" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.0"/>
+  <testcase name="applicationEventListener" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.152"/>
+  <testcase name="staticScript" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.216"/>
+  <testcase name="refreshableFromTag" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.166"/>
+  <testcase name="ctorWithEmptyScriptSourceLocator" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.0"/>
+  <testcase name="nonStaticScript" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.05"/>
+  <testcase name="nonStaticPrototypeScript" classname="org.springframework.scripting.bsh.BshScriptFactoryTests" time="0.057"/>
+  <system-out><![CDATA[org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@5bbf03d9: startup date [Thu Nov 10 15:39:17 GMT+08:00 2016]; root of context hierarchy]
+org.springframework.context.event.ContextClosedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@5bbf03d9: startup date [Thu Nov 10 15:39:17 GMT+08:00 2016]; root of context hierarchy]
+org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@248632bf: startup date [Thu Nov 10 15:39:18 GMT+08:00 2016]; root of context hierarchy]
+org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@34434845: startup date [Thu Nov 10 15:39:19 GMT+08:00 2016]; root of context hierarchy]
+org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@4dec31f6: startup date [Thu Nov 10 15:39:19 GMT+08:00 2016]; root of context hierarchy]
+org.springframework.scripting.bsh.BshScriptFactoryTests$MyEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@4dec31f6: startup date [Thu Nov 10 15:39:19 GMT+08:00 2016]; root of context hierarchy]
+org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.ClassPathXmlApplicationContext@99a364c: startup date [Thu Nov 10 15:39:19 GMT+08:00 2016]; root of context hierarchy]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

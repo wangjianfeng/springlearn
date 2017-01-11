@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:01" hostname="XB-20161010YVDY" time="0.095">
+  <properties/>
+  <testcase name="jsonView" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.002"/>
+  <testcase name="readInvalidJson" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.001"/>
+  <testcase name="prefixJson" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.0"/>
+  <testcase name="readTyped" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.017"/>
+  <testcase name="readUntyped" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.007"/>
+  <testcase name="jsonpAndJsonView" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.001"/>
+  <testcase name="filters" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.002"/>
+  <testcase name="writeUTF16" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.001"/>
+  <testcase name="readParameterizedType" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.004"/>
+  <testcase name="canWrite" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.011"/>
+  <testcase name="jsonp" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.001"/>
+  <testcase name="write" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.002"/>
+  <testcase name="readGenerics" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.003"/>
+  <testcase name="canRead" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.002"/>
+  <testcase name="writeSubTypeList" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.002"/>
+  <testcase name="writeSubType" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.001"/>
+  <testcase name="prefixJsonCustom" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.001"/>
+  <testcase name="prettyPrint" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.001"/>
+  <testcase name="readValidJsonWithUnknownProperty" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.001"/>
+  <testcase name="canReadAndWriteMicroformats" classname="org.springframework.http.converter.json.MappingJackson2HttpMessageConverterTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

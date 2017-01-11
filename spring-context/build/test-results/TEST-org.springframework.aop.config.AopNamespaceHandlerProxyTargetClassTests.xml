@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:18" hostname="XB-20161010YVDY" time="0.311">
+  <properties/>
+  <testcase name="testIsClassProxy" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.076"/>
+  <testcase name="testAdviceInvokedCorrectly" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.07"/>
+  <testcase name="testAspectAppliedForInitializeBean" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.054"/>
+  <testcase name="testIsProxy" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.053"/>
+  <testcase name="testAspectApplied" classname="org.springframework.aop.config.AopNamespaceHandlerProxyTargetClassTests" time="0.057"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

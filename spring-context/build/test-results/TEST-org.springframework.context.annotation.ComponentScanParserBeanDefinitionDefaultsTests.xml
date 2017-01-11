@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:44" hostname="XB-20161010YVDY" time="3.225">
+  <properties/>
+  <testcase name="testDefaultInitAndDestroyMethodsDefined" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.285"/>
+  <testcase name="testDefaultNonExistingInitAndDestroyMethodsDefined" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.286"/>
+  <testcase name="testDefaultAutowire" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.268"/>
+  <testcase name="testLazyInitFalse" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.305"/>
+  <testcase name="testAutowireNo" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.268"/>
+  <testcase name="testDefaultDependencyCheck" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.278"/>
+  <testcase name="testDefaultLazyInit" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.253"/>
+  <testcase name="testDefaultInitAndDestroyMethodsNotDefined" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.251"/>
+  <testcase name="testAutowireByName" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.258"/>
+  <testcase name="testAutowireByType" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.261"/>
+  <testcase name="testAutowireConstructor" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.256"/>
+  <testcase name="testLazyInitTrue" classname="org.springframework.context.annotation.ComponentScanParserBeanDefinitionDefaultsTests" time="0.254"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

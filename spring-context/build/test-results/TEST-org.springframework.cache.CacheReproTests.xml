@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.CacheReproTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:25" hostname="XB-20161010YVDY" time="0.746">
+  <properties/>
+  <testcase name="spr11592GetNeverCache" classname="org.springframework.cache.CacheReproTests" time="0.272"/>
+  <testcase name="spr11124" classname="org.springframework.cache.CacheReproTests" time="0.073"/>
+  <testcase name="spr11249" classname="org.springframework.cache.CacheReproTests" time="0.076"/>
+  <testcase name="spr14230AdaptsToOptional" classname="org.springframework.cache.CacheReproTests" time="0.075"/>
+  <testcase name="spr11592GetSimple" classname="org.springframework.cache.CacheReproTests" time="0.05"/>
+  <testcase name="spr13081ConfigFailIfCacheResolverReturnsNullCacheName" classname="org.springframework.cache.CacheReproTests" time="0.077"/>
+  <testcase name="spr14853AdaptsToOptionalWithSync" classname="org.springframework.cache.CacheReproTests" time="0.071"/>
+  <testcase name="spr13081ConfigNoCacheNameIsRequired" classname="org.springframework.cache.CacheReproTests" time="0.05"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

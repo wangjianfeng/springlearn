@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:56:24" hostname="XB-20161010YVDY" time="0.034">
+  <properties/>
+  <testcase name="resourcesViaDefaultServlet" classname="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" time="0.01"/>
+  <testcase name="tilesDefinitions" classname="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" time="0.009"/>
+  <testcase name="resourceRequest" classname="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

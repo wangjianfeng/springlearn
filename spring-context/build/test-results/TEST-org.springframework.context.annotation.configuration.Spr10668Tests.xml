@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.configuration.Spr10668Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:50" hostname="XB-20161010YVDY" time="0.02">
+  <properties/>
+  <testcase name="testSelfInjectHierarchy" classname="org.springframework.context.annotation.configuration.Spr10668Tests" time="0.02"/>
+  <system-out><![CDATA[Parent class org.springframework.context.annotation.configuration.Spr10668Tests$ChildConfig$$EnhancerBySpringCGLIB$$79930957
+BFA class org.springframework.context.annotation.configuration.Spr10668Tests$ChildConfig$$EnhancerBySpringCGLIB$$79930957
+BFA class org.springframework.context.annotation.configuration.Spr10668Tests$ChildConfig$$EnhancerBySpringCGLIB$$79930957
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

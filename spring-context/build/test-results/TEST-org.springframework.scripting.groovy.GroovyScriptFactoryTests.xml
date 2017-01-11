@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scripting.groovy.GroovyScriptFactoryTests" tests="38" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:39:20" hostname="XB-20161010YVDY" time="3.387">
+  <properties/>
+  <testcase name="testAnonymousScriptDetected" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.217"/>
+  <testcase name="testWithTwoClassesDefinedInTheOneGroovyFile_CorrectClassFirst" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.018"/>
+  <testcase name="testStaticScript" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.195"/>
+  <testcase name="testRefreshableJsr223FromTag" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.11"/>
+  <testcase name="testJsr223FromTag" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.099"/>
+  <testcase name="testWithInlineScriptWithLeadingWhitespace" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.01"/>
+  <testcase name="testCtorWithNullScriptSourceLocator" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.001"/>
+  <testcase name="testStaticScriptWithInstanceUsingJsr223" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.11"/>
+  <testcase name="testInlineScriptFromTag" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.167"/>
+  <testcase name="testStaticScriptUsingJsr223" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.107"/>
+  <testcase name="testRefreshableFactoryBean" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.165"/>
+  <testcase name="testStaticPrototypeScript" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.165"/>
+  <testcase name="testResourceScriptFromTag" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.171"/>
+  <testcase name="testFactoryBean" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.155"/>
+  <testcase name="testStaticScriptWithInstance" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.183"/>
+  <testcase name="testPrototypeScriptFromTag" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.189"/>
+  <testcase name="testStaticScriptWithInlineDefinedInstance" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.188"/>
+  <testcase name="testStaticScriptWithInlineDefinedInstanceUsingJsr223" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.107"/>
+  <testcase name="testGetScriptedObjectDoesChokeOnNullScriptSourceBeingPassedIn" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.0"/>
+  <testcase name="testRefreshableFromTag" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.161"/>
+  <testcase name="testStaticPrototypeScriptUsingJsr223" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.106"/>
+  <testcase name="testCtorWithWhitespacedScriptSourceLocator" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.0"/>
+  <testcase name="testInlineJsr223FromTag" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.11"/>
+  <testcase name="testScriptedClassThatDoesNotHaveANoArgCtor" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.003"/>
+  <testcase name="testScriptCompilationException" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.015"/>
+  <testcase name="testCtorWithEmptyScriptSourceLocator" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.0"/>
+  <testcase name="testWithTwoClassesDefinedInTheOneGroovyFile_WrongClassFirst" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.089"/>
+  <testcase name="testJsr223FromTagWithInterface" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.101"/>
+  <testcase name="testInlineJsr223FromTagWithInterface" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.095"/>
+  <testcase name="testRefreshableFromTagProxyTargetClass" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.026"/>
+  <testcase name="testProxyTargetClassNotAllowedIfNotGroovy" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.021"/>
+  <testcase name="testCanPassInMoreThanOneProperty" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.15"/>
+  <testcase name="testMetaClassWithBeans" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.033"/>
+  <testcase name="testMetaClassWithXsd" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.037"/>
+  <testcase name="testNonStaticScript" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.034"/>
+  <testcase name="testNonStaticPrototypeScript" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.036"/>
+  <testcase name="testScriptedClassThatHasNoPublicNoArgCtor" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.007"/>
+  <testcase name="testGetScriptedObjectDoesNotChokeOnNullInterfacesBeingPassedIn" classname="org.springframework.scripting.groovy.GroovyScriptFactoryTests" time="0.003"/>
+  <system-out><![CDATA[customizing org.springframework.scripting.groovy.GroovyCalculator@479f07fc...
+GroovyMessenger
+GroovyMessenger
+GroovyMessenger
+customizing org.springframework.scripting.groovy.GroovyCalculator@746e59e5...
+GroovyMessenger
+GroovyMessenger
+GroovyMessenger
+GroovyMessenger
+GroovyMessenger
+customizing org.springframework.scripting.groovy.GroovyCalculator@2d663ce5...
+GroovyMessenger
+GroovyMessenger
+GroovyMessenger
+GroovyMessenger
+customizing org.springframework.scripting.groovy.GroovyCalculator@5a931134...
+GroovyMessenger
+GroovyMessenger
+GroovyMessenger
+customizing org.springframework.scripting.groovy.GroovyCalculator@e715e72...
+GroovyMessenger
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:49" hostname="XB-20161010YVDY" time="0.142">
+  <properties/>
+  <testcase name="testCustomWithAttributeOverride" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.028"/>
+  <testcase name="testCustomWithAsm" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.025"/>
+  <testcase name="testCustom" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.014"/>
+  <testcase name="testScoped" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.022"/>
+  <testcase name="testStandard" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.018"/>
+  <testcase name="testScopedProxy" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.035"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

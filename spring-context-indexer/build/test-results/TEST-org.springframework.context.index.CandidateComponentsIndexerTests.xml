@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.index.CandidateComponentsIndexerTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:39:28" hostname="XB-20161010YVDY" time="3.799">
+  <properties/>
+  <testcase name="persistenceEmbeddable" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.898"/>
+  <testcase name="stereotypeService" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.17"/>
+  <testcase name="cdiNamed" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.167"/>
+  <testcase name="typeStereotypeFromInterfaceFromSuperClass" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.163"/>
+  <testcase name="typeStereotypeOnIndexedInterface" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.133"/>
+  <testcase name="stereotypeRepository" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.135"/>
+  <testcase name="stereotypeControllerMetaAnnotation" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.127"/>
+  <testcase name="noAnnotation" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.725"/>
+  <testcase name="typeStereotypeFromMetaInterface" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.082"/>
+  <testcase name="stereotypeOnAbstractClass" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.078"/>
+  <testcase name="typeStereotypeFromSeveralInterfaces" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.105"/>
+  <testcase name="typeStereotypeOnInterfaceFromSeveralInterfaces" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.101"/>
+  <testcase name="cdiManagedBean" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.102"/>
+  <testcase name="stereotypeControllerMetaIndex" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.077"/>
+  <testcase name="persistenceEntity" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.102"/>
+  <testcase name="packageInfo" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.064"/>
+  <testcase name="persistenceConverter" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.088"/>
+  <testcase name="typeStereotypeOnInterface" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.067"/>
+  <testcase name="persistenceMappedSuperClass" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.09"/>
+  <testcase name="stereotypeController" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.075"/>
+  <testcase name="noCandidate" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.166"/>
+  <testcase name="stereotypeComponent" classname="org.springframework.context.index.CandidateComponentsIndexerTests" time="0.072"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

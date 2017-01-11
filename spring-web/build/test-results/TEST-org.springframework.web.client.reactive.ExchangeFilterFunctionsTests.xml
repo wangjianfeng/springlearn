@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.reactive.ExchangeFilterFunctionsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:24" hostname="XB-20161010YVDY" time="0.024">
+  <properties/>
+  <testcase name="clientNoError" classname="org.springframework.web.client.reactive.ExchangeFilterFunctionsTests" time="0.016"/>
+  <testcase name="basicAuthentication" classname="org.springframework.web.client.reactive.ExchangeFilterFunctionsTests" time="0.002"/>
+  <testcase name="andThen" classname="org.springframework.web.client.reactive.ExchangeFilterFunctionsTests" time="0.001"/>
+  <testcase name="serverError" classname="org.springframework.web.client.reactive.ExchangeFilterFunctionsTests" time="0.001"/>
+  <testcase name="errorMapperFunction" classname="org.springframework.web.client.reactive.ExchangeFilterFunctionsTests" time="0.001"/>
+  <testcase name="apply" classname="org.springframework.web.client.reactive.ExchangeFilterFunctionsTests" time="0.002"/>
+  <testcase name="errorPredicate" classname="org.springframework.web.client.reactive.ExchangeFilterFunctionsTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.BeanMethodPolymorphismTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:42" hostname="XB-20161010YVDY" time="0.26">
+  <properties/>
+  <testcase name="beanMethodOverloadingWithInheritanceAndList" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.023"/>
+  <testcase name="beanMethodThroughAopProxy" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.048"/>
+  <testcase name="beanMethodOverridingWithNarrowedReturnTypeOnASM" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.03"/>
+  <testcase name="beanMethodOverloadingWithoutInheritance" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.019"/>
+  <testcase name="beanMethodDetectedOnSuperClass" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.01"/>
+  <testcase name="beanMethodOverloadingWithAdditionalMetadata" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.021"/>
+  <testcase name="beanMethodOverriding" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.018"/>
+  <testcase name="beanMethodOverloadingWithInheritance" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.022"/>
+  <testcase name="beanMethodOverridingWithNarrowedReturnType" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.012"/>
+  <testcase name="beanMethodOverridingOnASM" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.014"/>
+  <testcase name="beanMethodShadowing" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.021"/>
+  <testcase name="beanMethodOverloadingWithAdditionalMetadataButOtherMethodExecuted" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.009"/>
+  <testcase name="beanMethodOverloadingWithoutInheritanceAndExtraDependency" classname="org.springframework.context.annotation.BeanMethodPolymorphismTests" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

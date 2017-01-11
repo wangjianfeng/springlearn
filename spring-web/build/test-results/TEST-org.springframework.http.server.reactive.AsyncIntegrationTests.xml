@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.AsyncIntegrationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:02" hostname="XB-20161010YVDY" time="4.289">
+  <properties/>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@12dea7e7]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.628"/>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.RxNettyHttpServer@49ad730]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.798"/>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@567916df]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.599"/>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@2449db37]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="1.366"/>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@43cfa1c6]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.898"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[十一月 10, 2016 4:05:04 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-7954"]
+十一月 10, 2016 4:05:04 下午 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+信息: Using a shared selector for servlet write/read
+十一月 10, 2016 4:05:04 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Tomcat
+十一月 10, 2016 4:05:04 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/8.5.6
+十一月 10, 2016 4:05:05 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler [http-nio-7954]
+十一月 10, 2016 4:05:05 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-7954"]
+十一月 10, 2016 4:05:05 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Tomcat
+十一月 10, 2016 4:05:05 下午 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+警告: The web application [ROOT] appears to have started a thread named [parallel-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+十一月 10, 2016 4:05:05 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-7954"]
+十一月 10, 2016 4:05:05 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-7954"]
+]]></system-err>
+</testsuite>

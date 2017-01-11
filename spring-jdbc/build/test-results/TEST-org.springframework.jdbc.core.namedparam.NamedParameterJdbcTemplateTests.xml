@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:40:38" hostname="XB-20161010YVDY" time="0.025">
+  <properties/>
+  <testcase name="testUpdateWithTypedParameters" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.004"/>
+  <testcase name="testQueryWithRowMapper" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <testcase name="testQueryWithResultSetExtractorNoParameters" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <testcase name="testExecute" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <testcase name="testQueryWithRowMapperNoParameters" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <testcase name="testNullDataSourceProvidedToCtor" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <testcase name="testQueryWithRowCallbackHandler" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <testcase name="testExecuteNoParameters" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <testcase name="testQueryWithRowCallbackHandlerNoParameters" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.002"/>
+  <testcase name="testExecuteWithTypedParameters" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <testcase name="testQueryForObjectWithRowMapper" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <testcase name="testBatchUpdateWithSqlParameterSourcePlusTypeInfo" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.002"/>
+  <testcase name="testQueryWithResultSetExtractor" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <testcase name="testNullJdbcTemplateProvidedToCtor" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.0"/>
+  <testcase name="testBatchUpdateWithSqlParameterSource" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <testcase name="testUpdate" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <testcase name="testBatchUpdateWithPlainMap" classname="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplateTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

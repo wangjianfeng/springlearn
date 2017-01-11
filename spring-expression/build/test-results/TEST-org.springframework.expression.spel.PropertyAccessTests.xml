@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.expression.spel.PropertyAccessTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:40:31" hostname="XB-20161010YVDY" time="0.006">
+  <properties/>
+  <testcase name="testNonExistentPropertiesAndMethods" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
+  <testcase name="testAccessingPropertyOfClass" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
+  <testcase name="testAccessingOnNullObject" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
+  <testcase name="testAddingSpecificPropertyAccessor" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.003"/>
+  <testcase name="testAddingRemovingAccessors" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
+  <testcase name="testSimpleAccess01" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
+  <testcase name="testSimpleAccess02" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.0"/>
+  <testcase name="testSimpleAccess03" classname="org.springframework.expression.spel.PropertyAccessTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

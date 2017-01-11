@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.BodyExtractorsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:04:57" hostname="XB-20161010YVDY" time="0.707">
+  <properties/>
+  <testcase name="toFlux" classname="org.springframework.http.codec.BodyExtractorsTests" time="0.665"/>
+  <testcase name="toMono" classname="org.springframework.http.codec.BodyExtractorsTests" time="0.027"/>
+  <testcase name="toFluxUnacceptable" classname="org.springframework.http.codec.BodyExtractorsTests" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:42" hostname="XB-20161010YVDY" time="0.191">
+  <properties/>
+  <testcase name="getBeanByType" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.023"/>
+  <testcase name="scanAndRefresh" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.027"/>
+  <testcase name="defaultConfigClassBeanNameIsGeneratedProperly" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.009"/>
+  <testcase name="autowiringIsEnabledByDefault" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.031"/>
+  <testcase name="registerAndRefresh" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.013"/>
+  <testcase name="nullGetBeanParameterIsDisallowed" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.015"/>
+  <testcase name="getBeanByTypeRaisesNoSuchBeanDefinitionException" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.01"/>
+  <testcase name="explicitConfigClassBeanNameIsRespected" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.016"/>
+  <testcase name="nullReturningBeanPostProcessor" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.016"/>
+  <testcase name="getBeansWithAnnotation" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.014"/>
+  <testcase name="getBeanByTypeAmbiguityRaisesException" classname="org.springframework.context.annotation.AnnotationConfigApplicationContextTests" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

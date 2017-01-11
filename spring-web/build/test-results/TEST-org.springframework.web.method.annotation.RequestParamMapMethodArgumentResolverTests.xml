@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.method.annotation.RequestParamMapMethodArgumentResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:28" hostname="XB-20161010YVDY" time="0.001">
+  <properties/>
+  <testcase name="resolveMapArgument" classname="org.springframework.web.method.annotation.RequestParamMapMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveMultiValueMapArgument" classname="org.springframework.web.method.annotation.RequestParamMapMethodArgumentResolverTests" time="0.0"/>
+  <testcase name="supportsParameter" classname="org.springframework.web.method.annotation.RequestParamMapMethodArgumentResolverTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

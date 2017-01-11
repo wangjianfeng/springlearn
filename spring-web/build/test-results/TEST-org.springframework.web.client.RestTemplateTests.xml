@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.RestTemplateTests" tests="26" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:25" hostname="XB-20161010YVDY" time="0.071">
+  <properties/>
+  <testcase name="delete" classname="org.springframework.web.client.RestTemplateTests" time="0.032"/>
+  <testcase name="postForLocationEntityContentType" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForEntityNull" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="errorHandling" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="ioException" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="getUnsupportedMediaType" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="headForHeaders" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="varArgsNullTemplateVariable" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForEntity" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="getForObjectWithCustomUriTemplateHandler" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="mapTemplateVariables" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="varArgsTemplateVariables" classname="org.springframework.web.client.RestTemplateTests" time="0.0"/>
+  <testcase name="putNull" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForObject" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="postForLocation" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="put" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="postForLocationNoLocation" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="getForEntity" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="mapNullTemplateVariable" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="getForObject" classname="org.springframework.web.client.RestTemplateTests" time="0.004"/>
+  <testcase name="postForLocationEntityCustomHeader" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="optionsForAllow" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForObjectNull" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="postForLocationNull" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <testcase name="exchange" classname="org.springframework.web.client.RestTemplateTests" time="0.002"/>
+  <testcase name="exchangeParameterizedType" classname="org.springframework.web.client.RestTemplateTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

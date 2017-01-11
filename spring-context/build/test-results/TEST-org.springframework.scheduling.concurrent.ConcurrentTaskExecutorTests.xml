@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:39:16" hostname="XB-20161010YVDY" time="0.002">
+  <properties/>
+  <testcase name="passingNullExecutorToCtorResultsInDefaultTaskExecutorBeingUsed" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.001"/>
+  <testcase name="passingNullExecutorToSetterResultsInDefaultTaskExecutorBeingUsed" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.0"/>
+  <testcase name="zeroArgCtorResultsInDefaultTaskExecutorBeingUsed" classname="org.springframework.scheduling.concurrent.ConcurrentTaskExecutorTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

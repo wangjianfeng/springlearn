@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" tests="43" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:50" hostname="XB-20161010YVDY" time="0.347">
+  <properties/>
+  <testcase name="genericsBasedInjectionWithWildcardWithExtendsMatch" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.01"/>
+  <testcase name="configurationClassesWithInvalidOverridingForProgrammaticCall" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.011"/>
+  <testcase name="postProcessorOverridesNonApplicationBeanDefinitions" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.002"/>
+  <testcase name="postProcessorWorksWithComposedConfigurationUsingAsm" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.007"/>
+  <testcase name="postProcessorDoesNotOverrideRegularBeanDefinitions" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.001"/>
+  <testcase name="postProcessorWorksWithMetaComponentScanConfigurationWithAttributeOverridesUsingAsm" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.008"/>
+  <testcase name="genericsBasedInjection" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.015"/>
+  <testcase name="scopedProxyTargetMarkedAsNonAutowireCandidate" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.007"/>
+  <testcase name="postProcessorWorksWithComposedConfigurationWithAttributeOverrideForExcludeFilterUsingAsm" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.006"/>
+  <testcase name="genericsBasedInjectionWithImplTypeAtInjectionPoint" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.012"/>
+  <testcase name="testCircularDependencyWithApplicationContext" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.017"/>
+  <testcase name="genericsBasedInjectionWithWildcardWithGenericExtendsMatch" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.004"/>
+  <testcase name="configurationClassesProcessedInCorrectOrder" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.001"/>
+  <testcase name="genericsBasedInjectionWithFactoryBean" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.011"/>
+  <testcase name="configurationClassesWithValidOverridingForProgrammaticCall" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.004"/>
+  <testcase name="genericsBasedInjectionWithRawMatch" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.004"/>
+  <testcase name="postProcessorWorksWithMetaComponentScanConfigurationWithAttributeOverridesSubclassUsingReflection" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.008"/>
+  <testcase name="postProcessorWorksWithComposedConfigurationUsingReflection" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.007"/>
+  <testcase name="genericsBasedInjectionWithWildcardMatch" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.004"/>
+  <testcase name="postProcessorIntrospectsInheritedDefinitionsCorrectly" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.001"/>
+  <testcase name="testConfigWithDefaultMethodsUsingAsm" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.013"/>
+  <testcase name="genericsBasedInjectionWithScopedProxyUsingAsm" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.028"/>
+  <testcase name="enhancementIsPresentBecauseSingletonSemanticsAreRespected" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.001"/>
+  <testcase name="genericsBasedInjectionWithScoped" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.018"/>
+  <testcase name="postProcessorWorksWithMetaComponentScanConfigurationWithAttributeOverridesSubclassUsingAsm" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.008"/>
+  <testcase name="postProcessorWorksWithComposedConfigurationWithAttributeOverrideForBasePackageUsingAsm" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.005"/>
+  <testcase name="testConfigWithDefaultMethods" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.001"/>
+  <testcase name="testNullArgumentThroughBeanMethodCall" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.023"/>
+  <testcase name="postProcessorDoesNotOverrideRegularBeanDefinitionsEvenWithScopedProxy" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.003"/>
+  <testcase name="testSelfReferenceExclusionForFactoryMethodOnSameBean" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.013"/>
+  <testcase name="postProcessorFailsOnImplicitOverrideIfOverridingIsNotAllowed" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.0"/>
+  <testcase name="processingAllowedOnlyOncePerProcessorRegistryPair" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.0"/>
+  <testcase name="configurationIntrospectionOfInnerClassesWorksWithDotNameSyntax" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.004"/>
+  <testcase name="testSingletonArgumentThroughBeanMethodCall" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.021"/>
+  <testcase name="postProcessorWorksWithComposedConfigurationWithAttributeOverrideForBasePackageUsingReflection" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.004"/>
+  <testcase name="postProcessorWorksWithComposedConfigurationWithAttributeOverrideForExcludeFilterUsingReflection" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.003"/>
+  <testcase name="testPrototypeArgumentThroughBeanMethodCall" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.021"/>
+  <testcase name="testCircularDependency" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.004"/>
+  <testcase name="alreadyLoadedConfigurationClasses" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.009"/>
+  <testcase name="postProcessorWorksWithComposedComposedConfigurationWithAttributeOverridesUsingAsm" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.008"/>
+  <testcase name="postProcessorWorksWithComposedComposedConfigurationWithAttributeOverridesUsingReflection" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.005"/>
+  <testcase name="postProcessorWorksWithMetaComponentScanConfigurationWithAttributeOverridesUsingReflection" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.005"/>
+  <testcase name="genericsBasedInjectionWithScopedProxy" classname="org.springframework.context.annotation.ConfigurationClassPostProcessorTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

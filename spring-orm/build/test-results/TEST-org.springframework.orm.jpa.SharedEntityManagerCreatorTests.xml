@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:41:50" hostname="XB-20161010YVDY" time="0.069">
+  <properties/>
+  <testcase name="transactionRequiredExceptionOnRemove" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.006"/>
+  <testcase name="transactionRequiredExceptionOnJoinTransaction" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="proxyingWorksIfInfoReturnsNullEntityManagerInterface" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.062"/>
+  <testcase name="transactionRequiredExceptionOnRefresh" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="transactionRequiredExceptionOnFlush" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="transactionRequiredExceptionOnMerge" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <testcase name="transactionRequiredExceptionOnPersist" classname="org.springframework.orm.jpa.SharedEntityManagerCreatorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

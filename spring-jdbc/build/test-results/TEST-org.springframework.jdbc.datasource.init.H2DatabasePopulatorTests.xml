@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:40:42" hostname="XB-20161010YVDY" time="0.246">
+  <properties/>
+  <testcase name="scriptWithoutStatementSeparator" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.026"/>
+  <testcase name="scriptWithMultipleStatementsAndWhitespaceSeparator" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.007"/>
+  <testcase name="scriptWithSingleLineCommentsAndFailedDrop" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.004"/>
+  <testcase name="usesBoundConnectionIfAvailable" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.003"/>
+  <testcase name="scriptWithMultipleStatementsAndLongSeparator" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.006"/>
+  <testcase name="scriptWithSelectStatements" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.004"/>
+  <testcase name="scriptWithMultipleStatements" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.005"/>
+  <testcase name="executesHugeScriptInReasonableTime" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.157"/>
+  <testcase name="scriptWithMultipleStatementsAndMultipleNewlineSeparator" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.005"/>
+  <testcase name="scriptWithStandardEscapedLiteral" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.003"/>
+  <testcase name="scriptWithMultipleStatementsAndNewlineSeparator" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.005"/>
+  <testcase name="scriptWithCommentsWithinStatements" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.005"/>
+  <testcase name="scriptWithMySqlEscapedLiteral" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.003"/>
+  <testcase name="scriptWithEolBetweenTokens" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.004"/>
+  <testcase name="constructorWithMultipleScriptResources" classname="org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

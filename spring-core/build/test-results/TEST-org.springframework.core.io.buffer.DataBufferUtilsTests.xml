@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.io.buffer.DataBufferUtilsTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:40:11" hostname="XB-20161010YVDY" time="0.029">
+  <properties/>
+  <testcase name="readUnalignedChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.003"/>
+  <testcase name="readInputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCount[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="readChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCountShouldSkipAll[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="takeUntilByteCount[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readUnalignedChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readInputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCount[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readChannel[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCountShouldSkipAll[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="takeUntilByteCount[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readUnalignedChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="readInputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="skipUntilByteCount[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.002"/>
+  <testcase name="readChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCountShouldSkipAll[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="takeUntilByteCount[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readUnalignedChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.003"/>
+  <testcase name="readInputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCount[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readChannel[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCountShouldSkipAll[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="takeUntilByteCount[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readUnalignedChannel[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readInputStream[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCount[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readChannel[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCountShouldSkipAll[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="takeUntilByteCount[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readUnalignedChannel[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="readInputStream[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="skipUntilByteCount[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <testcase name="readChannel[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="skipUntilByteCountShouldSkipAll[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.001"/>
+  <testcase name="takeUntilByteCount[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferUtilsTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

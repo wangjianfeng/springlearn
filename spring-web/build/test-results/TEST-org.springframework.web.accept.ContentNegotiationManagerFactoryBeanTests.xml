@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:05:22" hostname="XB-20161010YVDY" time="0.019">
+  <properties/>
+  <testcase name="favorPath" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.015"/>
+  <testcase name="favorPathWithJafTurnedOff" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
+  <testcase name="favorPathWithIgnoreUnknownPathExtensionTurnedOff" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
+  <testcase name="defaultSettings" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
+  <testcase name="setDefaultContentType" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
+  <testcase name="ignoreAcceptHeader" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
+  <testcase name="favorParameter" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.001"/>
+  <testcase name="favorParameterWithUnknownMediaType" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
+  <testcase name="setDefaultContentTypeWithStrategy" classname="org.springframework.web.accept.ContentNegotiationManagerFactoryBeanTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

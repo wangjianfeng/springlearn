@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2016-11-10T07:38:49" hostname="XB-20161010YVDY" time="0.214">
+  <properties/>
+  <testcase name="configWithSetWithProviderImplementation" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.022"/>
+  <testcase name="aliasesAreRespectedWhenConfiguredViaNameAttribute" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.013"/>
+  <testcase name="configWithFactoryBeanReturnType" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.016"/>
+  <testcase name="customBeanNameIsRespectedWhenConfiguredViaNameAttribute" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.017"/>
+  <testcase name="configurationWithAdaptivePrototypes" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.041"/>
+  <testcase name="testFinalBeanMethod" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.001"/>
+  <testcase name="aliasesAreRespectedWhenConfiguredViaValueAttribute" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.013"/>
+  <testcase name="configWithBeanWithProviderImplementation" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.024"/>
+  <testcase name="configWithObjectReturnType" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.001"/>
+  <testcase name="configurationWithPostProcessor" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.029"/>
+  <testcase name="configurationWithPrototypeScopedBeans" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.007"/>
+  <testcase name="customBeanNameIsRespectedWhenConfiguredViaValueAttribute" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.019"/>
+  <testcase name="simplestPossibleConfig" classname="org.springframework.context.annotation.configuration.ConfigurationClassProcessingTests" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

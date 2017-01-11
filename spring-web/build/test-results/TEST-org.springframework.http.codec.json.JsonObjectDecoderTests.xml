@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.json.JsonObjectDecoderTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2016-11-10T08:04:58" hostname="XB-20161010YVDY" time="0.023">
+  <properties/>
+  <testcase name="decodeSingleChunkToJsonObject[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.001"/>
+  <testcase name="decodeMultipleChunksToJsonObject[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.004"/>
+  <testcase name="decodeMultipleChunksToArray[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.002"/>
+  <testcase name="decodeSingleChunkToArray[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.001"/>
+  <testcase name="decodeSingleChunkToJsonObject[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.0"/>
+  <testcase name="decodeMultipleChunksToJsonObject[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.0"/>
+  <testcase name="decodeMultipleChunksToArray[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.0"/>
+  <testcase name="decodeSingleChunkToArray[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.0"/>
+  <testcase name="decodeSingleChunkToJsonObject[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.0"/>
+  <testcase name="decodeMultipleChunksToJsonObject[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.001"/>
+  <testcase name="decodeMultipleChunksToArray[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.001"/>
+  <testcase name="decodeSingleChunkToArray[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.0"/>
+  <testcase name="decodeSingleChunkToJsonObject[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.006"/>
+  <testcase name="decodeMultipleChunksToJsonObject[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.001"/>
+  <testcase name="decodeMultipleChunksToArray[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.001"/>
+  <testcase name="decodeSingleChunkToArray[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.0"/>
+  <testcase name="decodeSingleChunkToJsonObject[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.001"/>
+  <testcase name="decodeMultipleChunksToJsonObject[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.0"/>
+  <testcase name="decodeMultipleChunksToArray[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.001"/>
+  <testcase name="decodeSingleChunkToArray[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.0"/>
+  <testcase name="decodeSingleChunkToJsonObject[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.0"/>
+  <testcase name="decodeMultipleChunksToJsonObject[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.0"/>
+  <testcase name="decodeMultipleChunksToArray[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.001"/>
+  <testcase name="decodeSingleChunkToArray[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.json.JsonObjectDecoderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
